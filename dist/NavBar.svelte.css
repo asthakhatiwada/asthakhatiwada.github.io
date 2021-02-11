@@ -1,0 +1,5 @@
+.nav-item.svelte-107ahdg:hover{--tw-bg-opacity:1;background-color:rgba(0, 0, 0, var(--tw-bg-opacity))
+}.nav-item.svelte-107ahdg{border-radius:0.25rem;display:block;display:flex;align-items:center;font-weight:600;padding-top:0.25rem;padding-bottom:0.25rem;padding-left:0.5rem;padding-right:0.5rem;--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))
+}@media(min-width: 640px){.nav-item.svelte-107ahdg{margin-top:0px;margin-left:0.5rem
+  }}a.nav-item-active{--tw-bg-opacity:1;background-color:rgba(0, 0, 0, var(--tw-bg-opacity))
+}
