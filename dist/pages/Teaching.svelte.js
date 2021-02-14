@@ -19,17 +19,19 @@ function create_fragment(ctx) {
 	let t19;
 	let div11;
 	let t37;
-	let h21;
-	let t39;
 	let div17;
+	let t55;
+	let h21;
 	let t57;
-	let div21;
-	let t67;
-	let div24;
-	let t73;
-	let h22;
+	let div23;
 	let t75;
 	let div27;
+	let t85;
+	let div30;
+	let t91;
+	let h22;
+	let t93;
+	let div33;
 
 	return {
 		c() {
@@ -53,7 +55,25 @@ function create_fragment(ctx) {
 			t19 = space();
 			div11 = element("div");
 
-			div11.innerHTML = `<h3 class="card-title">Teaching Assistant, BMTRY 701 – Biostatistical Methods II, Fall 2018</h3> 
+			div11.innerHTML = `<h3 class="card-title">Teaching Assistant, BMTRY 722 – Analysis of Survival Data, Summer 2019</h3> 
+  <div class="pl-6"><div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Level</p> 
+      <p class="">Graduate</p></div> 
+    <div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Topics covered</p> 
+      <p class="">Introductory course in theory and application of analytic methods for
+        time-to-event data, including nonparametric, parametric, and
+        semi-parametric (Cox model) approaches, different types of censoring,
+        sample size and power estimation.</p></div> 
+    <div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Student group</p> 
+      <p class="">MS/PhD Biostatistics/ Epidemiology students.</p></div> 
+    <div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Responsibilities</p> 
+      <p class="">Guest lectured on hypothesis testing and confidence interval calculation
+        for survival outcomes; graded homework; provided homework and R
+        programming support.</p></div></div>`;
+
+			t37 = space();
+			div17 = element("div");
+
+			div17.innerHTML = `<h3 class="card-title">Teaching Assistant, BMTRY 701 – Biostatistical Methods II, Fall 2018</h3> 
   <div class="pl-6"><div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Level</p> 
       <p class="">Graduate</p></div> 
     <div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Topics covered</p> 
@@ -68,13 +88,13 @@ function create_fragment(ctx) {
         support implementation of statistical methodologies discussed in the
         course; created and graded lab homework; graded class project.</p></div></div>`;
 
-			t37 = space();
+			t55 = space();
 			h21 = element("h2");
 			h21.textContent = "East Tennessee State University";
-			t39 = space();
-			div17 = element("div");
+			t57 = space();
+			div23 = element("div");
 
-			div17.innerHTML = `<h3 class="card-title">Teaching Associate, MATH 1530 – Probability and Statistics, 2015-2016</h3> 
+			div23.innerHTML = `<h3 class="card-title">Teaching Associate, MATH 1530 – Probability and Statistics, 2015-2016</h3> 
   <div class="pl-6"><div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Level</p> 
       <p class="">Undergraduate</p></div> 
     <div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Topics covered</p> 
@@ -87,32 +107,32 @@ function create_fragment(ctx) {
         grading final student project, designing and implementing learning
         techniques helpful for students with special academic needs.</p></div></div>`;
 
-			t57 = space();
-			div21 = element("div");
+			t75 = space();
+			div27 = element("div");
 
-			div21.innerHTML = `<h3 class="card-title">Resident Adviser, Upward Bound, 2015-2016</h3> 
+			div27.innerHTML = `<h3 class="card-title">Resident Adviser, Upward Bound, 2015-2016</h3> 
   <div class="pl-6"><div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Class</p> 
       <p class="">College Math Prep</p></div> 
     <div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Responsibilities</p> 
       <p class="">Preparing high school students to take college-level math courses.</p></div></div>`;
 
-			t67 = space();
-			div24 = element("div");
+			t85 = space();
+			div30 = element("div");
 
-			div24.innerHTML = `<h3 class="card-title">Math and Statistics Tutor, Center for Academic Achievement, 2014-2015</h3> 
+			div30.innerHTML = `<h3 class="card-title">Math and Statistics Tutor, Center for Academic Achievement, 2014-2015</h3> 
   <div class="pl-6"><div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Responsibilities</p> 
       <p class="">Assisting undergraduate students through individual tutoring sessions in
         math and statistics course work; helping students devise learning
         strategies to promote independent learning and avenues to succeed
         academically.</p></div></div>`;
 
-			t73 = space();
+			t91 = space();
 			h22 = element("h2");
 			h22.textContent = "Minnesota State University Moorhead";
-			t75 = space();
-			div27 = element("div");
+			t93 = space();
+			div33 = element("div");
 
-			div27.innerHTML = `<h3 class="card-title">Math and Statistics Tutor, Math Department, 2010-2012</h3> 
+			div33.innerHTML = `<h3 class="card-title">Math and Statistics Tutor, Math Department, 2010-2012</h3> 
   <div class="pl-6"><div class="flex py-0.5"><p class="card-row-header svelte-gdpktx">Responsibilities</p> 
       <p class="">Tutoring students in undergraduate-level math and statistics courses.</p></div></div>`;
 
@@ -120,9 +140,10 @@ function create_fragment(ctx) {
 			attr(div5, "class", "card");
 			attr(div11, "class", "card");
 			attr(div17, "class", "card");
-			attr(div21, "class", "card");
-			attr(div24, "class", "card");
+			attr(div23, "class", "card");
 			attr(div27, "class", "card");
+			attr(div30, "class", "card");
+			attr(div33, "class", "card");
 		},
 		m(target, anchor) {
 			insert(target, h20, anchor);
@@ -131,17 +152,19 @@ function create_fragment(ctx) {
 			insert(target, t19, anchor);
 			insert(target, div11, anchor);
 			insert(target, t37, anchor);
-			insert(target, h21, anchor);
-			insert(target, t39, anchor);
 			insert(target, div17, anchor);
+			insert(target, t55, anchor);
+			insert(target, h21, anchor);
 			insert(target, t57, anchor);
-			insert(target, div21, anchor);
-			insert(target, t67, anchor);
-			insert(target, div24, anchor);
-			insert(target, t73, anchor);
-			insert(target, h22, anchor);
+			insert(target, div23, anchor);
 			insert(target, t75, anchor);
 			insert(target, div27, anchor);
+			insert(target, t85, anchor);
+			insert(target, div30, anchor);
+			insert(target, t91, anchor);
+			insert(target, h22, anchor);
+			insert(target, t93, anchor);
+			insert(target, div33, anchor);
 		},
 		p: noop,
 		i: noop,
@@ -153,17 +176,19 @@ function create_fragment(ctx) {
 			if (detaching) detach(t19);
 			if (detaching) detach(div11);
 			if (detaching) detach(t37);
-			if (detaching) detach(h21);
-			if (detaching) detach(t39);
 			if (detaching) detach(div17);
+			if (detaching) detach(t55);
+			if (detaching) detach(h21);
 			if (detaching) detach(t57);
-			if (detaching) detach(div21);
-			if (detaching) detach(t67);
-			if (detaching) detach(div24);
-			if (detaching) detach(t73);
-			if (detaching) detach(h22);
+			if (detaching) detach(div23);
 			if (detaching) detach(t75);
 			if (detaching) detach(div27);
+			if (detaching) detach(t85);
+			if (detaching) detach(div30);
+			if (detaching) detach(t91);
+			if (detaching) detach(h22);
+			if (detaching) detach(t93);
+			if (detaching) detach(div33);
 		}
 	};
 }

@@ -20,8 +20,8 @@ function create_fragment(ctx) {
 
 			div3.innerHTML = `<div class="max-w-screen-lg m-auto sm:px-20 flex justify-center"><div class="footer-link svelte-b7h7gb"><img class="icon svelte-b7h7gb" src="/public/img/google.svg"/> 
       <a target="_blank" href="https://scholar.google.com/citations?user=35QeShYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></div> 
-    <div class="footer-link svelte-b7h7gb"><img class="icon svelte-b7h7gb" src="/public/img/twitter.svg"/>
-      Twitter</div></div>`;
+    <div class="footer-link svelte-b7h7gb"><img class="icon svelte-b7h7gb" src="/public/img/ncbi.svg"/> 
+      <a target="_blank" href="https://www.ncbi.nlm.nih.gov/myncbi/1H_rcsuIGrVA1A/bibliography/public/">NCBI</a></div></div>`;
 
 			attr(div3, "class", "dark:bg-gray-600 bg-gray-200 py-10");
 		},

@@ -19,7 +19,7 @@ function create_fragment(ctx) {
 			div5 = element("div");
 
 			div5.innerHTML = `<div class="sm:w-1/3 pr-0 mb-4 sm:mr-6"><img src="/public/img/ak.jpeg" class=""/></div> 
-  <div class="sm:w-2/3"><h2 class="mt-0 svelte-1yevltx" style="margin-top: 0">About</h2> 
+  <div class="sm:w-2/3"><h2 class="mt-0 svelte-1uoq69v" style="margin-top: 0">About</h2> 
     <div><p>I am a PhD candidate in Biostatistics at the
         <a class="external-link" target="_blank" href="https://web.musc.edu">Medical University
           of South Carolina</a>, working under the supervision of
@@ -35,7 +35,7 @@ function create_fragment(ctx) {
         Economics from
         <a class="external-link" target="_blank" href="https://www.mnstate.edu.">MSUM</a>.</p></div> 
 
-    <h2 class="text-xl font-bold mb-4 svelte-1yevltx">Research Interest</h2> 
+    <h2 class="text-xl font-bold mb-4 svelte-1uoq69v">Research Interest</h2> 
     <div><p class="mt-4">My research is focused on developing novel statistical approaches to
         integrate genetic data with genomic functional annotation data applied
         to complex autoimmune diseases (e.g., systemic lupus erythematosus,
@@ -59,7 +59,7 @@ function create_fragment(ctx) {
           scholar page</a>
         for additional details.</p></div> 
 
-    <h2 class="text-xl font-bold mb-4 svelte-1yevltx">Contact</h2> 
+    <h2 class="text-xl font-bold mb-4 svelte-1uoq69v">Contact</h2> 
     <div><p>Aastha Khatiwada</p> 
       <p>Department of Public Health Sciences</p> 
       <p>135 Cannon Place, Suite 305, Charleston, SC 29425</p> 
