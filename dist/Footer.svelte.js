@@ -18,9 +18,9 @@ function create_fragment(ctx) {
 		c() {
 			div3 = element("div");
 
-			div3.innerHTML = `<div class="max-w-screen-lg m-auto sm:px-20 flex justify-center"><div class="external-link svelte-8bssa1"><img class="icon svelte-8bssa1" src="/public/img/google.svg"/>
-      Google Scholar</div> 
-    <div class="external-link svelte-8bssa1"><img class="icon svelte-8bssa1" src="/public/img/twitter.svg"/>
+			div3.innerHTML = `<div class="max-w-screen-lg m-auto sm:px-20 flex justify-center"><div class="footer-link svelte-b7h7gb"><img class="icon svelte-b7h7gb" src="/public/img/google.svg"/> 
+      <a target="_blank" href="https://scholar.google.com/citations?user=35QeShYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></div> 
+    <div class="footer-link svelte-b7h7gb"><img class="icon svelte-b7h7gb" src="/public/img/twitter.svg"/>
       Twitter</div></div>`;
 
 			attr(div3, "class", "dark:bg-gray-600 bg-gray-200 py-10");
