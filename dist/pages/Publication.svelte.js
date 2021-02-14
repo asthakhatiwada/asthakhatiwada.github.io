@@ -13,7 +13,6 @@ import {
 	mount_component,
 	noop,
 	safe_not_equal,
-	set_style,
 	space,
 	text,
 	transition_in,
@@ -24,163 +23,171 @@ import InlineSVG from "../../_snowpack/pkg/svelte-inline-svg.js";
 import star from "../../public/heroicons/solid/star.svg.proxy.js";
 
 function create_fragment(ctx) {
-	let h1;
+	let h10;
 	let t1;
-	let h20;
-	let t3;
 	let div8;
 	let div2;
 	let div0;
-	let t4;
+	let t2;
 	let div1;
 	let p0;
-	let t6;
+	let t7;
 	let p1;
 	let inlinesvg0;
-	let t7;
 	let t8;
+	let t9;
 	let div5;
 	let div3;
-	let t9;
+	let t10;
 	let div4;
 	let p2;
-	let t11;
+	let t16;
 	let p3;
 	let inlinesvg1;
-	let t12;
-	let span;
-	let t14;
-	let div7;
 	let t17;
-	let h21;
+	let span;
 	let t19;
+	let div7;
+	let t25;
+	let h11;
+	let t27;
 	let div13;
 	let current;
 
 	inlinesvg0 = new InlineSVG({
 			props: {
 				src: star,
-				class: "h-6 w-6 fill-current inline-block mr-1"
+				class: "h-6 w-6 flex-shrink-0 fill-current inline-block mr-1"
 			}
 		});
 
 	inlinesvg1 = new InlineSVG({
 			props: {
 				src: star,
-				class: "h-6 w-6 fill-current inline-block mr-1"
+				class: "h-6 w-6 flex-shrink-0 fill-current inline-block mr-1"
 			}
 		});
 
 	return {
 		c() {
-			h1 = element("h1");
-			h1.textContent = "Publications";
+			h10 = element("h1");
+			h10.textContent = "Peer-reviewed Publications";
 			t1 = space();
-			h20 = element("h2");
-			h20.textContent = "Peer-reviewed Publications";
-			t3 = space();
 			div8 = element("div");
 			div2 = element("div");
 			div0 = element("div");
-			div0.innerHTML = `<img src="/public/img/pr.png"/>`;
-			t4 = space();
+			div0.innerHTML = `<img class="publication-image" src="/public/img/pr.png"/>`;
+			t2 = space();
 			div1 = element("div");
 			p0 = element("p");
-			p0.textContent = "Khatiwada A, Wolf BJ, Mulligan JK, Shary JR, Hewison M, Baatz JE, Newton\n        DA, Hawrylowicz C, Hollis BW, Wagner CL. Effects of vitamin D\n        supplementation on circulating concentrations of growth factors and\n        immune-mediators in healthy women during pregnancy. Pediatr Res. 2020\n        Apr; 20:1-9. PMID: 32311700.";
-			t6 = space();
+
+			p0.innerHTML = `<strong>Khatiwada A</strong>, Wolf BJ, Mulligan JK, Shary JR, Hewison M,
+        Baatz JE, Newton DA, Hawrylowicz C, Hollis BW, Wagner CL.
+        <a class="external-link" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/32311700/">Effects of vitamin D
+          supplementation on circulating concentrations of growth factors and
+          immune-mediators in healthy women during pregnancy</a>. Pediatr Res.
+        2020 Apr; 20:1-9. PMID: 32311700.`;
+
+			t7 = space();
 			p1 = element("p");
 			create_component(inlinesvg0.$$.fragment);
-			t7 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
-			t8 = space();
+			t8 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
+			t9 = space();
 			div5 = element("div");
 			div3 = element("div");
-			div3.innerHTML = `<img src="/public/img/csam.gif"/>`;
-			t9 = space();
+			div3.innerHTML = `<img class="publication-image" src="/public/img/csam.gif"/>`;
+			t10 = space();
 			div4 = element("div");
 			p2 = element("p");
-			p2.textContent = "Nam JH*, Khatiwada A*, Matthews LJ, Schulte BA, Dubno JR, Chung\n        D. Ranking subjects based on paired compositional data with application\n        to age-related hearing loss subtyping. Commun Stat Appl Methods. 2020\n        Mar;27(2):225-239. PMID: 32566544; PMCID: PMC7304553 (*joint first\n        author).";
-			t11 = space();
+
+			p2.innerHTML = `Nam JH*,
+        <strong>Khatiwada A*</strong>, Matthews LJ, Schulte BA, Dubno JR, Chung
+        D.
+        <a class="external-link" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/32566544/">Ranking subjects based on paired compositional data with application
+          to age-related hearing loss subtyping</a>. Commun Stat Appl Methods.
+        2020 Mar;27(2):225-239. PMID: 32566544; PMCID: PMC7304553 (*joint first
+        author).`;
+
+			t16 = space();
 			p3 = element("p");
 			create_component(inlinesvg1.$$.fragment);
-			t12 = space();
+			t17 = space();
 			span = element("span");
 			span.textContent = "First joint author";
-			t14 = space();
+			t19 = space();
 			div7 = element("div");
 
-			div7.innerHTML = `<div class="mr-4 mb-2" style="width: 110px; min-width: 110px"><img src="/public/img/po.gif"/></div> 
-    <p>Khatiwada A, Shoaibi A, Neelon B, Emond JA, Benjamin-Neelon SE. Household
-      chaos during infancy and infant weight status at 12 months. Pediatr
-      Obes. 2018 Oct;13(10):607-613. PMID: 30019385; PMCID: PMC6300983.</p>`;
+			div7.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/po.gif"/></div> 
+    <p><strong>Khatiwada A</strong>, Shoaibi A, Neelon B, Emond JA,
+      Benjamin-Neelon SE.
+      <a class="external-link" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30019385/">Household chaos during
+        infancy and infant weight status at 12 months</a>. Pediatr Obes. 2018
+      Oct;13(10):607-613. PMID: 30019385; PMCID: PMC6300983.</p>`;
 
-			t17 = space();
-			h21 = element("h2");
-			h21.textContent = "Manuscript under Review";
-			t19 = space();
+			t25 = space();
+			h11 = element("h1");
+			h11.textContent = "Manuscript under Review";
+			t27 = space();
 			div13 = element("div");
 
-			div13.innerHTML = `<div class="publication-item svelte-iwsbgz"><p>The Pelotonia Institute for Immuno-Oncology, The Ohio State University
-      CD24Fc Covid19 Team (…, Khatiwada A, …, Chung D, Li Z). Immunological
-      insights into the therapeutic roles of soluble CD24 against severe
-      COVID-19. Submitted to New England Journal of Medicine.</p></div> 
-  <div class="publication-item svelte-iwsbgz"><p>Khatiwada A, Wolf BJ, Yilmaz AS, Ramos P, Pietrzak M, Lawson A, Hunt KJ,
-      Kim, HJ, Chung D. GPA-Tree: Statistical Approach for
+			div13.innerHTML = `<div class="publication-item"><p>The Pelotonia Institute for Immuno-Oncology, The Ohio State University
+      CD24Fc Covid19 Team (…,
+      <strong>Khatiwada A</strong>, …, Chung D, Li Z). Immunological insights
+      into the therapeutic roles of soluble CD24 against severe COVID-19.
+      Submitted to New England Journal of Medicine.</p></div> 
+  <div class="publication-item"><p><strong>Khatiwada A</strong>, Wolf BJ, Yilmaz AS, Ramos P, Pietrzak M,
+      Lawson A, Hunt KJ, Kim, HJ, Chung D. GPA-Tree: Statistical Approach for
       Functional-Annotation-Tree-Guided Prioritization of GWAS results.
       Submitted to Bioinformatics.</p></div> 
-  <div class="publication-item svelte-iwsbgz"><p>Ayoub I, Wolf BJ, Geng L, Song H, Khatiwada A, Tsao B, Oats J, Rovin B.
-      Prediction Models of Treatment Response in Lupus Nephritis. Submitted to
-      Kidney International.</p></div> 
-  <div class="publication-item svelte-iwsbgz"><p>Richard MLL, Wirth JR, Khatiwada A, Chung D, Eudaly J, Gilkeson GS,
-      Cunningham MA. Deletion of ERα expression in CD11c+ cells reduce survival
-      in female mice and impacts pathways associated with cytokine signaling.
-      Submitted to Journal of Immunology.</p></div>`;
+  <div class="publication-item"><p>Ayoub I, Wolf BJ, Geng L, Song H,
+      <strong>Khatiwada A</strong>, Tsao B, Oats J, Rovin B. Prediction Models
+      of Treatment Response in Lupus Nephritis. Submitted to Kidney
+      International.</p></div> 
+  <div class="publication-item"><p>Richard MLL, Wirth JR,
+      <strong>Khatiwada A</strong>, Chung D, Eudaly J, Gilkeson GS, Cunningham
+      MA. Deletion of ERα expression in CD11c+ cells reduce survival in female
+      mice and impacts pathways associated with cytokine signaling. Submitted
+      to Journal of Immunology.</p></div>`;
 
-			attr(h1, "class", "text-2xl font-bold mb-4");
-			attr(h20, "class", "text-xl font-bold mb-4");
-			attr(div0, "class", "mr-4 mb-2");
-			set_style(div0, "width", "110px");
-			set_style(div0, "min-width", "110px");
-			attr(p1, "class", "special-text svelte-iwsbgz");
-			attr(div2, "class", "publication-item sm:flex svelte-iwsbgz");
-			attr(div3, "class", "mr-4 mb-2");
-			set_style(div3, "width", "110px");
-			set_style(div3, "min-width", "110px");
-			attr(p3, "class", "special-text svelte-iwsbgz");
-			attr(div5, "class", "publication-item sm:flex svelte-iwsbgz");
-			attr(div7, "class", "publication-item sm:flex svelte-iwsbgz");
-			attr(h21, "class", "text-xl font-bold mb-4");
+			attr(h10, "class", "text-xl font-bold mb-4");
+			attr(div0, "class", "image-wrapper");
+			attr(p1, "class", "special-text svelte-15gy8pn");
+			attr(div2, "class", "publication-item sm:flex");
+			attr(div3, "class", "image-wrapper");
+			attr(p3, "class", "special-text svelte-15gy8pn");
+			attr(div5, "class", "publication-item sm:flex");
+			attr(div7, "class", "publication-item sm:flex");
+			attr(h11, "class", "text-xl font-bold mb-4");
 		},
 		m(target, anchor) {
-			insert(target, h1, anchor);
+			insert(target, h10, anchor);
 			insert(target, t1, anchor);
-			insert(target, h20, anchor);
-			insert(target, t3, anchor);
 			insert(target, div8, anchor);
 			append(div8, div2);
 			append(div2, div0);
-			append(div2, t4);
+			append(div2, t2);
 			append(div2, div1);
 			append(div1, p0);
-			append(div1, t6);
+			append(div1, t7);
 			append(div1, p1);
 			mount_component(inlinesvg0, p1, null);
-			append(p1, t7);
-			append(div8, t8);
+			append(p1, t8);
+			append(div8, t9);
 			append(div8, div5);
 			append(div5, div3);
-			append(div5, t9);
+			append(div5, t10);
 			append(div5, div4);
 			append(div4, p2);
-			append(div4, t11);
+			append(div4, t16);
 			append(div4, p3);
 			mount_component(inlinesvg1, p3, null);
-			append(p3, t12);
+			append(p3, t17);
 			append(p3, span);
-			append(div8, t14);
+			append(div8, t19);
 			append(div8, div7);
-			insert(target, t17, anchor);
-			insert(target, h21, anchor);
-			insert(target, t19, anchor);
+			insert(target, t25, anchor);
+			insert(target, h11, anchor);
+			insert(target, t27, anchor);
 			insert(target, div13, anchor);
 			current = true;
 		},
@@ -197,16 +204,14 @@ function create_fragment(ctx) {
 			current = false;
 		},
 		d(detaching) {
-			if (detaching) detach(h1);
+			if (detaching) detach(h10);
 			if (detaching) detach(t1);
-			if (detaching) detach(h20);
-			if (detaching) detach(t3);
 			if (detaching) detach(div8);
 			destroy_component(inlinesvg0);
 			destroy_component(inlinesvg1);
-			if (detaching) detach(t17);
-			if (detaching) detach(h21);
-			if (detaching) detach(t19);
+			if (detaching) detach(t25);
+			if (detaching) detach(h11);
+			if (detaching) detach(t27);
 			if (detaching) detach(div13);
 		}
 	};

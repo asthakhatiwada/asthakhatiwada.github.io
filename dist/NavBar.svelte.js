@@ -107,6 +107,7 @@ function create_fragment(ctx) {
 	let inlinesvg;
 	let t0;
 	let span;
+	let link_action;
 	let t2;
 	let div0;
 	let button;
@@ -115,23 +116,23 @@ function create_fragment(ctx) {
 	let div2;
 	let nav;
 	let a1;
-	let link_action;
+	let link_action_1;
 	let active_action;
 	let t6;
 	let a2;
-	let link_action_1;
+	let link_action_2;
 	let active_action_1;
 	let t8;
 	let a3;
-	let link_action_2;
+	let link_action_3;
 	let active_action_2;
 	let t10;
 	let a4;
-	let link_action_3;
+	let link_action_4;
 	let active_action_3;
 	let t12;
 	let a5;
-	let link_action_4;
+	let link_action_5;
 	let active_action_4;
 	let div2_class_value;
 	let current;
@@ -169,35 +170,35 @@ function create_fragment(ctx) {
 			div2 = element("div");
 			nav = element("nav");
 			a1 = element("a");
-			a1.textContent = "Publication";
+			a1.textContent = "Home";
 			t6 = space();
 			a2 = element("a");
-			a2.textContent = "Software";
+			a2.textContent = "Publication";
 			t8 = space();
 			a3 = element("a");
 			a3.textContent = "Teaching";
 			t10 = space();
 			a4 = element("a");
-			a4.textContent = "CV";
+			a4.textContent = "Software";
 			t12 = space();
 			a5 = element("a");
-			a5.textContent = "Contact";
-			attr(a0, "href", "#");
+			a5.textContent = "Project";
+			attr(a0, "href", "/");
 			attr(a0, "class", "flex items-center");
 			attr(h1, "class", "text-gray-100 text-2xl font-semibold flex-shrink-0 hover:text-blue-100");
 			attr(button, "type", "button");
 			attr(button, "class", "text-gray-300 focus:text-white hover:text-white");
 			attr(div0, "class", "sm:hidden");
 			attr(div1, "class", "flex items-center justify-between px-4 py-3 sm:p-0");
-			attr(a1, "href", "/publication");
+			attr(a1, "href", "/");
 			attr(a1, "class", "nav-item svelte-107ahdg");
-			attr(a2, "href", "/software");
+			attr(a2, "href", "/publication");
 			attr(a2, "class", "nav-item svelte-107ahdg");
 			attr(a3, "href", "/teaching");
 			attr(a3, "class", "nav-item svelte-107ahdg");
-			attr(a4, "href", "/cv");
+			attr(a4, "href", "/software");
 			attr(a4, "class", "nav-item svelte-107ahdg");
-			attr(a5, "href", "/contact");
+			attr(a5, "href", "/project");
 			attr(a5, "class", "nav-item svelte-107ahdg");
 			attr(nav, "class", "px-2 pt-2 pb-4 sm:flex sm:p-0");
 			attr(div2, "class", div2_class_value = "" + ((/*isNavOpen*/ ctx[0] ? "block" : "hidden") + " sm:block"));
@@ -235,16 +236,17 @@ function create_fragment(ctx) {
 
 			if (!mounted) {
 				dispose = [
+					action_destroyer(link_action = link.call(null, a0)),
 					listen(button, "click", /*toggleNav*/ ctx[1]),
-					action_destroyer(link_action = link.call(null, a1)),
+					action_destroyer(link_action_1 = link.call(null, a1)),
 					action_destroyer(active_action = active.call(null, a1, { className: "nav-item-active" })),
-					action_destroyer(link_action_1 = link.call(null, a2)),
+					action_destroyer(link_action_2 = link.call(null, a2)),
 					action_destroyer(active_action_1 = active.call(null, a2, { className: "nav-item-active" })),
-					action_destroyer(link_action_2 = link.call(null, a3)),
+					action_destroyer(link_action_3 = link.call(null, a3)),
 					action_destroyer(active_action_2 = active.call(null, a3, { className: "nav-item-active" })),
-					action_destroyer(link_action_3 = link.call(null, a4)),
+					action_destroyer(link_action_4 = link.call(null, a4)),
 					action_destroyer(active_action_3 = active.call(null, a4, { className: "nav-item-active" })),
-					action_destroyer(link_action_4 = link.call(null, a5)),
+					action_destroyer(link_action_5 = link.call(null, a5)),
 					action_destroyer(active_action_4 = active.call(null, a5, { className: "nav-item-active" }))
 				];
 
