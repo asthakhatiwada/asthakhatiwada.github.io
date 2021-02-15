@@ -134,6 +134,10 @@ function create_fragment(ctx) {
 	let a5;
 	let link_action_5;
 	let active_action_4;
+	let t14;
+	let a6;
+	let link_action_6;
+	let active_action_5;
 	let div2_class_value;
 	let current;
 	let mounted;
@@ -183,6 +187,9 @@ function create_fragment(ctx) {
 			t12 = space();
 			a5 = element("a");
 			a5.textContent = "Project";
+			t14 = space();
+			a6 = element("a");
+			a6.textContent = "CV";
 			attr(a0, "href", "/");
 			attr(a0, "class", "flex items-center");
 			attr(h1, "class", "text-gray-100 text-2xl font-semibold flex-shrink-0 hover:text-blue-100");
@@ -200,6 +207,8 @@ function create_fragment(ctx) {
 			attr(a4, "class", "nav-item svelte-107ahdg");
 			attr(a5, "href", "/project");
 			attr(a5, "class", "nav-item svelte-107ahdg");
+			attr(a6, "href", "/cv");
+			attr(a6, "class", "nav-item svelte-107ahdg");
 			attr(nav, "class", "px-2 pt-2 pb-4 sm:flex sm:p-0");
 			attr(div2, "class", div2_class_value = "" + ((/*isNavOpen*/ ctx[0] ? "block" : "hidden") + " sm:block"));
 			attr(div3, "class", "max-w-screen-lg m-auto sm:flex sm:justify-between sm:px-4 sm:py-3 sm:pr-3 sm:justify-center");
@@ -232,6 +241,8 @@ function create_fragment(ctx) {
 			append(nav, a4);
 			append(nav, t12);
 			append(nav, a5);
+			append(nav, t14);
+			append(nav, a6);
 			current = true;
 
 			if (!mounted) {
@@ -247,7 +258,9 @@ function create_fragment(ctx) {
 					action_destroyer(link_action_4 = link.call(null, a4)),
 					action_destroyer(active_action_3 = active.call(null, a4, { className: "nav-item-active" })),
 					action_destroyer(link_action_5 = link.call(null, a5)),
-					action_destroyer(active_action_4 = active.call(null, a5, { className: "nav-item-active" }))
+					action_destroyer(active_action_4 = active.call(null, a5, { className: "nav-item-active" })),
+					action_destroyer(link_action_6 = link.call(null, a6)),
+					action_destroyer(active_action_5 = active.call(null, a6, { className: "nav-item-active" }))
 				];
 
 				mounted = true;

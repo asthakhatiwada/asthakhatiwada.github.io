@@ -1,5 +1,5 @@
-import { r as regexparam, l as loc } from '../common/Router-6205f23c.js';
-import '../common/index-4bf94259.js';
+import { r as regexparam, l as loc } from '../common/Router-7c4681f2.js';
+import '../common/index-769cc44c.js';
 
 // List of nodes to update
 const nodes = [];

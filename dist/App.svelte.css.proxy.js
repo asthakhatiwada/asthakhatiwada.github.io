@@ -1,6 +1,6 @@
 // [snowpack] add styles to the page (skip if no document exists)
 if (typeof document !== 'undefined') {
-  const code = "a.external-link{text-decoration:underline\n}";
+  const code = "a.external-link{text-decoration:underline}";
 
   const styleEl = document.createElement("style");
   const codeEl = document.createTextNode(code);
