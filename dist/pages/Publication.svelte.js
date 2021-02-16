@@ -134,7 +134,7 @@ function create_fragment(ctx) {
 			t37 = space();
 			p5 = element("p");
 			create_component(inlinesvg1.$$.fragment);
-			t38 = text("\n        Downloaded 1,792 times");
+			t38 = text("\n        Downloaded over 1,790 times");
 			t39 = space();
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
