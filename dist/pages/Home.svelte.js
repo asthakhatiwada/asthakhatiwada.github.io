@@ -88,7 +88,7 @@ function create_fragment(ctx) {
 			t23 = text("See my\n        ");
 			a6 = element("a");
 			a6.textContent = "CV";
-			t25 = text("\n        or additional details.");
+			t25 = text("\n        for additional details.");
 			t26 = space();
 			h22 = element("h2");
 			h22.textContent = "Contact";

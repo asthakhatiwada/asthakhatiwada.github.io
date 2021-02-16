@@ -114,7 +114,7 @@ function create_fragment(ctx) {
       Submitted to
       <span class="italic">New England Journal of Medicine.</span></p></div> 
   <div class="publication-item"><p><strong>Khatiwada A</strong>, Wolf BJ, Yilmaz AS, Ramos P, Pietrzak M,
-      Lawson A, Hunt KJ, Kim, HJ, Chung D. GPA-Tree: Statistical Approach for
+      Lawson A, Hunt KJ, Kim HJ, Chung D. GPA-Tree: Statistical Approach for
       Functional-Annotation-Tree-Guided Prioritization of GWAS results.
       Submitted to
       <span class="italic">Bioinformatics.</span></p></div> 

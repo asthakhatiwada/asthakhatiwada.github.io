@@ -8,6 +8,7 @@ import {
 	insert,
 	noop,
 	safe_not_equal,
+	set_style,
 	space
 } from "../../_snowpack/pkg/svelte/internal.js";
 
@@ -27,7 +28,8 @@ function create_fragment(ctx) {
 			if (embed.src !== (embed_src_value = "/public/misc/Khatiwada_CV.pdf")) attr(embed, "src", embed_src_value);
 			attr(embed, "type", "application/pdf");
 			attr(embed, "width", "100%");
-			attr(embed, "class", "flex-1");
+			set_style(embed, "max-width", "800px");
+			attr(embed, "class", "flex-1 m-auto");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
