@@ -1,1 +1,0 @@
-export default "/public/heroicons/outline/menu.svg";

@@ -1,1 +1,0 @@
-export default "/public/heroicons/solid/star.svg";
