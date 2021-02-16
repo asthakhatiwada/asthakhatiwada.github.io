@@ -25,26 +25,28 @@ import star from "../../public/heroicons/solid/star.svg.proxy.js";
 function create_fragment(ctx) {
 	let h10;
 	let t1;
-	let h11;
-	let t3;
 	let div8;
 	let div2;
 	let div0;
-	let t4;
+	let t2;
 	let div1;
 	let p0;
-	let t11;
+	let t9;
 	let p1;
 	let inlinesvg;
-	let t12;
-	let t13;
+	let t10;
+	let t11;
 	let div5;
-	let t22;
+	let t20;
 	let div7;
+	let t28;
+	let h11;
 	let t30;
+	let div10;
+	let t35;
 	let h12;
-	let t32;
-	let div13;
+	let t37;
+	let div15;
 	let current;
 
 	inlinesvg = new InlineSVG({
@@ -57,16 +59,13 @@ function create_fragment(ctx) {
 	return {
 		c() {
 			h10 = element("h1");
-			h10.textContent = "Other Publications";
+			h10.textContent = "Peer-reviewed Publications";
 			t1 = space();
-			h11 = element("h1");
-			h11.textContent = "Peer-reviewed Publications";
-			t3 = space();
 			div8 = element("div");
 			div2 = element("div");
 			div0 = element("div");
 			div0.innerHTML = `<img class="publication-image" src="/public/img/pr.png"/>`;
-			t4 = space();
+			t2 = space();
 			div1 = element("div");
 			p0 = element("p");
 
@@ -78,11 +77,11 @@ function create_fragment(ctx) {
         <span class="italic">Pediatr Res.</span>
         2020 Apr; 20:1-9. PMID: 32311700.`;
 
-			t11 = space();
+			t9 = space();
 			p1 = element("p");
 			create_component(inlinesvg.$$.fragment);
-			t12 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
-			t13 = space();
+			t10 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
+			t11 = space();
 			div5 = element("div");
 
 			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/csam.gif"/></div> 
@@ -95,7 +94,7 @@ function create_fragment(ctx) {
         2020 Mar;27(2):225-239. PMID: 32566544; PMCID: PMC7304553 (*joint first
         author).</p></div>`;
 
-			t22 = space();
+			t20 = space();
 			div7 = element("div");
 
 			div7.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/po.gif"/></div> 
@@ -106,13 +105,26 @@ function create_fragment(ctx) {
       <span class="italic">Pediatr Obes.</span>
       2018 Oct;13(10):607-613. PMID: 30019385; PMCID: PMC6300983.</p>`;
 
+			t28 = space();
+			h11 = element("h1");
+			h11.textContent = "Other Publications";
 			t30 = space();
+			div10 = element("div");
+
+			div10.innerHTML = `<div class="publication-item"><p>The Pelotonia Institute for Immuno-Oncology, The Ohio State University
+      CD24Fc Covid19 Team (…,
+      <strong>Khatiwada A</strong>, …, Chung D, Li Z). Immunological insights
+      into the therapeutic roles of soluble CD24 against severe COVID-19.
+      Submitted to
+      <span class="italic">New England Journal of Medicine.</span></p></div>`;
+
+			t35 = space();
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
-			t32 = space();
-			div13 = element("div");
+			t37 = space();
+			div15 = element("div");
 
-			div13.innerHTML = `<div class="publication-item"><p>The Pelotonia Institute for Immuno-Oncology, The Ohio State University
+			div15.innerHTML = `<div class="publication-item"><p>The Pelotonia Institute for Immuno-Oncology, The Ohio State University
       CD24Fc Covid19 Team (…,
       <strong>Khatiwada A</strong>, …, Chung D, Li Z). Immunological insights
       into the therapeutic roles of soluble CD24 against severe COVID-19.
@@ -134,37 +146,39 @@ function create_fragment(ctx) {
       <span class="italic">Journal of Immunology.</span></p></div>`;
 
 			attr(h10, "class", "text-xl font-bold mb-4");
-			attr(h11, "class", "text-xl font-bold mb-4");
 			attr(div0, "class", "image-wrapper");
 			attr(p1, "class", "special-text svelte-o83a5v");
 			attr(div2, "class", "publication-item md:flex");
 			attr(div5, "class", "publication-item md:flex");
 			attr(div7, "class", "publication-item md:flex");
+			attr(h11, "class", "text-xl font-bold mb-4");
 			attr(h12, "class", "text-xl font-bold mb-4");
 		},
 		m(target, anchor) {
 			insert(target, h10, anchor);
 			insert(target, t1, anchor);
-			insert(target, h11, anchor);
-			insert(target, t3, anchor);
 			insert(target, div8, anchor);
 			append(div8, div2);
 			append(div2, div0);
-			append(div2, t4);
+			append(div2, t2);
 			append(div2, div1);
 			append(div1, p0);
-			append(div1, t11);
+			append(div1, t9);
 			append(div1, p1);
 			mount_component(inlinesvg, p1, null);
-			append(p1, t12);
-			append(div8, t13);
+			append(p1, t10);
+			append(div8, t11);
 			append(div8, div5);
-			append(div8, t22);
+			append(div8, t20);
 			append(div8, div7);
+			insert(target, t28, anchor);
+			insert(target, h11, anchor);
 			insert(target, t30, anchor);
+			insert(target, div10, anchor);
+			insert(target, t35, anchor);
 			insert(target, h12, anchor);
-			insert(target, t32, anchor);
-			insert(target, div13, anchor);
+			insert(target, t37, anchor);
+			insert(target, div15, anchor);
 			current = true;
 		},
 		p: noop,
@@ -180,14 +194,16 @@ function create_fragment(ctx) {
 		d(detaching) {
 			if (detaching) detach(h10);
 			if (detaching) detach(t1);
-			if (detaching) detach(h11);
-			if (detaching) detach(t3);
 			if (detaching) detach(div8);
 			destroy_component(inlinesvg);
+			if (detaching) detach(t28);
+			if (detaching) detach(h11);
 			if (detaching) detach(t30);
+			if (detaching) detach(div10);
+			if (detaching) detach(t35);
 			if (detaching) detach(h12);
-			if (detaching) detach(t32);
-			if (detaching) detach(div13);
+			if (detaching) detach(t37);
+			if (detaching) detach(div15);
 		}
 	};
 }
