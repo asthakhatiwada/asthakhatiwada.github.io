@@ -33,7 +33,7 @@ function create_fragment(ctx) {
 	let p0;
 	let t9;
 	let p1;
-	let inlinesvg;
+	let inlinesvg0;
 	let t10;
 	let t11;
 	let div5;
@@ -43,13 +43,26 @@ function create_fragment(ctx) {
 	let h11;
 	let t30;
 	let div10;
+	let div9;
+	let p4;
 	let t37;
-	let h12;
+	let p5;
+	let inlinesvg1;
+	let t38;
 	let t39;
+	let h12;
+	let t41;
 	let div15;
 	let current;
 
-	inlinesvg = new InlineSVG({
+	inlinesvg0 = new InlineSVG({
+			props: {
+				src: star,
+				class: "h-6 w-6 flex-shrink-0 fill-current inline-block mr-1"
+			}
+		});
+
+	inlinesvg1 = new InlineSVG({
 			props: {
 				src: star,
 				class: "h-6 w-6 flex-shrink-0 fill-current inline-block mr-1"
@@ -79,7 +92,7 @@ function create_fragment(ctx) {
 
 			t9 = space();
 			p1 = element("p");
-			create_component(inlinesvg.$$.fragment);
+			create_component(inlinesvg0.$$.fragment);
 			t10 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
 			t11 = space();
 			div5 = element("div");
@@ -110,16 +123,22 @@ function create_fragment(ctx) {
 			h11.textContent = "Other Publications";
 			t30 = space();
 			div10 = element("div");
+			div9 = element("div");
+			p4 = element("p");
 
-			div10.innerHTML = `<div class="publication-item"><p><strong>Khatiwada A</strong>. 
+			p4.innerHTML = `<strong>Khatiwada A</strong>. 
       <a class="external-link" target="_blank" href="https://dc.etsu.edu/etd/3090/.">Multilevel Models for Longitudinal Data</a>.
       <span class="italic">Electronic Theses and Dissertations.</span>
-      2016; Paper 3090.</p></div>`;
+      2016; Paper 3090.`;
 
 			t37 = space();
+			p5 = element("p");
+			create_component(inlinesvg1.$$.fragment);
+			t38 = text("\n        Downloaded 1,792 times");
+			t39 = space();
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
-			t39 = space();
+			t41 = space();
 			div15 = element("div");
 
 			div15.innerHTML = `<div class="publication-item"><p>The Pelotonia Institute for Immuno-Oncology, The Ohio State University
@@ -150,6 +169,8 @@ function create_fragment(ctx) {
 			attr(div5, "class", "publication-item md:flex");
 			attr(div7, "class", "publication-item md:flex");
 			attr(h11, "class", "text-xl font-bold mb-4");
+			attr(p5, "class", "special-text svelte-o83a5v");
+			attr(div9, "class", "publication-item");
 			attr(h12, "class", "text-xl font-bold mb-4");
 		},
 		m(target, anchor) {
@@ -163,7 +184,7 @@ function create_fragment(ctx) {
 			append(div1, p0);
 			append(div1, t9);
 			append(div1, p1);
-			mount_component(inlinesvg, p1, null);
+			mount_component(inlinesvg0, p1, null);
 			append(p1, t10);
 			append(div8, t11);
 			append(div8, div5);
@@ -173,34 +194,43 @@ function create_fragment(ctx) {
 			insert(target, h11, anchor);
 			insert(target, t30, anchor);
 			insert(target, div10, anchor);
-			insert(target, t37, anchor);
-			insert(target, h12, anchor);
+			append(div10, div9);
+			append(div9, p4);
+			append(div9, t37);
+			append(div9, p5);
+			mount_component(inlinesvg1, p5, null);
+			append(p5, t38);
 			insert(target, t39, anchor);
+			insert(target, h12, anchor);
+			insert(target, t41, anchor);
 			insert(target, div15, anchor);
 			current = true;
 		},
 		p: noop,
 		i(local) {
 			if (current) return;
-			transition_in(inlinesvg.$$.fragment, local);
+			transition_in(inlinesvg0.$$.fragment, local);
+			transition_in(inlinesvg1.$$.fragment, local);
 			current = true;
 		},
 		o(local) {
-			transition_out(inlinesvg.$$.fragment, local);
+			transition_out(inlinesvg0.$$.fragment, local);
+			transition_out(inlinesvg1.$$.fragment, local);
 			current = false;
 		},
 		d(detaching) {
 			if (detaching) detach(h10);
 			if (detaching) detach(t1);
 			if (detaching) detach(div8);
-			destroy_component(inlinesvg);
+			destroy_component(inlinesvg0);
 			if (detaching) detach(t28);
 			if (detaching) detach(h11);
 			if (detaching) detach(t30);
 			if (detaching) detach(div10);
-			if (detaching) detach(t37);
-			if (detaching) detach(h12);
+			destroy_component(inlinesvg1);
 			if (detaching) detach(t39);
+			if (detaching) detach(h12);
+			if (detaching) detach(t41);
 			if (detaching) detach(div15);
 		}
 	};
