@@ -43,9 +43,9 @@ function create_fragment(ctx) {
 	let h11;
 	let t30;
 	let div10;
-	let t35;
-	let h12;
 	let t37;
+	let h12;
+	let t39;
 	let div15;
 	let current;
 
@@ -111,17 +111,15 @@ function create_fragment(ctx) {
 			t30 = space();
 			div10 = element("div");
 
-			div10.innerHTML = `<div class="publication-item"><p>The Pelotonia Institute for Immuno-Oncology, The Ohio State University
-      CD24Fc Covid19 Team (…,
-      <strong>Khatiwada A</strong>, …, Chung D, Li Z). Immunological insights
-      into the therapeutic roles of soluble CD24 against severe COVID-19.
-      Submitted to
-      <span class="italic">New England Journal of Medicine.</span></p></div>`;
+			div10.innerHTML = `<div class="publication-item"><p><strong>Khatiwada A</strong>. 
+      <a class="external-link" target="_blank" href="https://dc.etsu.edu/etd/3090/.">Multilevel Models for Longitudinal Data</a>.
+      <span class="italic">Electronic Theses and Dissertations.</span>
+      2016; Paper 3090.</p></div>`;
 
-			t35 = space();
+			t37 = space();
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
-			t37 = space();
+			t39 = space();
 			div15 = element("div");
 
 			div15.innerHTML = `<div class="publication-item"><p>The Pelotonia Institute for Immuno-Oncology, The Ohio State University
@@ -175,9 +173,9 @@ function create_fragment(ctx) {
 			insert(target, h11, anchor);
 			insert(target, t30, anchor);
 			insert(target, div10, anchor);
-			insert(target, t35, anchor);
-			insert(target, h12, anchor);
 			insert(target, t37, anchor);
+			insert(target, h12, anchor);
+			insert(target, t39, anchor);
 			insert(target, div15, anchor);
 			current = true;
 		},
@@ -200,9 +198,9 @@ function create_fragment(ctx) {
 			if (detaching) detach(h11);
 			if (detaching) detach(t30);
 			if (detaching) detach(div10);
-			if (detaching) detach(t35);
-			if (detaching) detach(h12);
 			if (detaching) detach(t37);
+			if (detaching) detach(h12);
+			if (detaching) detach(t39);
 			if (detaching) detach(div15);
 		}
 	};
