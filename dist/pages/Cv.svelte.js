@@ -12,25 +12,25 @@ import {
 } from "../../_snowpack/pkg/svelte/internal.js";
 
 function create_fragment(ctx) {
-	let p;
+	let div;
 	let t1;
 	let embed;
 	let embed_src_value;
 
 	return {
 		c() {
-			p = element("p");
-			p.innerHTML = `<a class="external-link" href="/public/misc/Khatiwada_CV.pdf" download="">Download CV</a>`;
+			div = element("div");
+			div.innerHTML = `<a class="external-link" href="/public/misc/Khatiwada_CV.pdf" download="">Download CV</a>`;
 			t1 = space();
 			embed = element("embed");
-			attr(p, "class", "mb-4");
+			attr(div, "class", "mb-4");
 			if (embed.src !== (embed_src_value = "/public/misc/Khatiwada_CV.pdf")) attr(embed, "src", embed_src_value);
 			attr(embed, "type", "application/pdf");
 			attr(embed, "width", "100%");
-			attr(embed, "height", "800px");
+			attr(embed, "class", "flex-1");
 		},
 		m(target, anchor) {
-			insert(target, p, anchor);
+			insert(target, div, anchor);
 			insert(target, t1, anchor);
 			insert(target, embed, anchor);
 		},
@@ -38,7 +38,7 @@ function create_fragment(ctx) {
 		i: noop,
 		o: noop,
 		d(detaching) {
-			if (detaching) detach(p);
+			if (detaching) detach(div);
 			if (detaching) detach(t1);
 			if (detaching) detach(embed);
 		}

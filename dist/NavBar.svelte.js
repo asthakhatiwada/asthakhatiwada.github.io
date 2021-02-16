@@ -195,23 +195,23 @@ function create_fragment(ctx) {
 			attr(h1, "class", "text-gray-100 text-2xl font-semibold flex-shrink-0 hover:text-blue-100");
 			attr(button, "type", "button");
 			attr(button, "class", "text-gray-300 focus:text-white hover:text-white");
-			attr(div0, "class", "sm:hidden");
-			attr(div1, "class", "flex items-center justify-between px-4 py-3 sm:p-0");
+			attr(div0, "class", "md:hidden");
+			attr(div1, "class", "flex items-center justify-between px-4 py-3 md:p-0");
 			attr(a1, "href", "/");
-			attr(a1, "class", "nav-item svelte-107ahdg");
+			attr(a1, "class", "nav-item svelte-qrmxxn");
 			attr(a2, "href", "/publication");
-			attr(a2, "class", "nav-item svelte-107ahdg");
+			attr(a2, "class", "nav-item svelte-qrmxxn");
 			attr(a3, "href", "/teaching");
-			attr(a3, "class", "nav-item svelte-107ahdg");
+			attr(a3, "class", "nav-item svelte-qrmxxn");
 			attr(a4, "href", "/software");
-			attr(a4, "class", "nav-item svelte-107ahdg");
+			attr(a4, "class", "nav-item svelte-qrmxxn");
 			attr(a5, "href", "/project");
-			attr(a5, "class", "nav-item svelte-107ahdg");
+			attr(a5, "class", "nav-item svelte-qrmxxn");
 			attr(a6, "href", "/cv");
-			attr(a6, "class", "nav-item svelte-107ahdg");
-			attr(nav, "class", "px-2 pt-2 pb-4 sm:flex sm:p-0");
-			attr(div2, "class", div2_class_value = "" + ((/*isNavOpen*/ ctx[0] ? "block" : "hidden") + " sm:block"));
-			attr(div3, "class", "max-w-screen-lg m-auto sm:flex sm:justify-between sm:px-4 sm:py-3 sm:pr-3 sm:justify-center");
+			attr(a6, "class", "nav-item svelte-qrmxxn");
+			attr(nav, "class", "px-2 pt-2 pb-4 md:flex md:p-0");
+			attr(div2, "class", div2_class_value = "" + ((/*isNavOpen*/ ctx[0] ? "block" : "hidden") + " md:block"));
+			attr(div3, "class", "max-w-screen-lg m-auto md:flex md:justify-between md:px-4 md:py-3 md:pr-3 md:justify-center");
 			attr(header, "class", "dark:bg-gray-800 bg-gray-600");
 		},
 		m(target, anchor) {
@@ -313,7 +313,7 @@ function create_fragment(ctx) {
 				check_outros();
 			}
 
-			if (!current || dirty & /*isNavOpen*/ 1 && div2_class_value !== (div2_class_value = "" + ((/*isNavOpen*/ ctx[0] ? "block" : "hidden") + " sm:block"))) {
+			if (!current || dirty & /*isNavOpen*/ 1 && div2_class_value !== (div2_class_value = "" + ((/*isNavOpen*/ ctx[0] ? "block" : "hidden") + " md:block"))) {
 				attr(div2, "class", div2_class_value);
 			}
 		},

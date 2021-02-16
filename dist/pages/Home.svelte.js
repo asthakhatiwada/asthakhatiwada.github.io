@@ -39,11 +39,9 @@ function create_fragment(ctx) {
 	let a6;
 	let link_action;
 	let t25;
-	let a7;
-	let t27;
-	let t28;
+	let t26;
 	let h22;
-	let t30;
+	let t28;
 	let div3;
 	let mounted;
 	let dispose;
@@ -90,14 +88,11 @@ function create_fragment(ctx) {
 			t23 = text("See my\n        ");
 			a6 = element("a");
 			a6.textContent = "CV";
-			t25 = text("\n        and/or\n        ");
-			a7 = element("a");
-			a7.textContent = "google\n          scholar page";
-			t27 = text("\n        for additional details.");
-			t28 = space();
+			t25 = text("\n        or additional details.");
+			t26 = space();
 			h22 = element("h2");
 			h22.textContent = "Contact";
-			t30 = space();
+			t28 = space();
 			div3 = element("div");
 
 			div3.innerHTML = `<p>Aastha Khatiwada</p> 
@@ -105,7 +100,7 @@ function create_fragment(ctx) {
       <p>135 Cannon Place, Suite 305, Charleston, SC 29425</p> 
       <p>email: khatiwad at musc dot edu</p>`;
 
-			attr(div0, "class", "sm:w-1/3 pr-0 mb-4 sm:mr-6");
+			attr(div0, "class", "md:w-1/3 pr-0 mb-4 md:mr-6");
 			attr(h20, "class", "mt-0 svelte-1uoq69v");
 			set_style(h20, "margin-top", "0");
 			attr(h21, "class", "text-xl font-bold mb-4 svelte-1uoq69v");
@@ -113,13 +108,10 @@ function create_fragment(ctx) {
 			attr(p2, "class", "mt-4");
 			attr(a6, "href", "/cv");
 			attr(a6, "class", "external-link");
-			attr(a7, "class", "external-link");
-			attr(a7, "target", "_blank");
-			attr(a7, "href", "https://scholar.google.com/citations?user=35QeShYAAAAJ&hl=en&oi=ao");
 			attr(p3, "class", "mt-4");
 			attr(h22, "class", "text-xl font-bold mb-4 svelte-1uoq69v");
-			attr(div4, "class", "sm:w-2/3");
-			attr(div5, "class", "block sm:flex");
+			attr(div4, "class", "md:w-2/3");
+			attr(div5, "class", "block md:flex");
 		},
 		m(target, anchor) {
 			insert(target, div5, anchor);
@@ -141,11 +133,9 @@ function create_fragment(ctx) {
 			append(p3, t23);
 			append(p3, a6);
 			append(p3, t25);
-			append(p3, a7);
-			append(p3, t27);
-			append(div4, t28);
+			append(div4, t26);
 			append(div4, h22);
-			append(div4, t30);
+			append(div4, t28);
 			append(div4, div3);
 
 			if (!mounted) {

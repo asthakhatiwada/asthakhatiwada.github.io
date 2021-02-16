@@ -59,7 +59,7 @@ function create_fragment(ctx) {
 			create_component(router.$$.fragment);
 			t3 = space();
 			create_component(footer.$$.fragment);
-			attr(div, "class", "flex-grow max-w-screen-lg w-screen m-auto p-4");
+			attr(div, "class", "flex flex-col flex-grow max-w-screen-lg w-screen m-auto p-4");
 		},
 		m(target, anchor) {
 			mount_component(tailwindcss, target, anchor);

@@ -17,7 +17,7 @@ function create_fragment(ctx) {
 		c() {
 			div3 = element("div");
 
-			div3.innerHTML = `<div class="flex items-center"><div class="pr-4"><img style="width: 150px" src="/public/img/gpatree.png"/></div> 
+			div3.innerHTML = `<div class="block md:flex items-center"><div class="pr-4"><img class="m-auto" style="width: 150px" src="/public/img/gpatree.png"/></div> 
     <div class="flex-1"><h2 class="mt-0">GPATree</h2> 
       <p>R package implementing the GPA-Tree method.</p> 
       <p>Shiny app to interactively implement association mapping and investigate
