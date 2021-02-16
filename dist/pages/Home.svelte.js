@@ -71,7 +71,7 @@ function create_fragment(ctx) {
         <a class="external-link" target="_blank" href="https://www.etsu.edu/ehome/">ETSU</a>
         , and a BS degree in Math (actuarial science emphasis) and a BA degree in
         Economics from
-        <a class="external-link" target="_blank" href="https://www.mnstate.edu.">MSUM</a>.</p>`;
+        <a class="external-link" target="_blank" href="https://www.mnstate.edu">MSUM</a>.</p>`;
 
 			t16 = space();
 			h21 = element("h2");
