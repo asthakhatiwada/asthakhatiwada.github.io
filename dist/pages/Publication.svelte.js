@@ -120,7 +120,7 @@ function create_fragment(ctx) {
 
 			t28 = space();
 			h11 = element("h1");
-			h11.textContent = "Other Publications";
+			h11.textContent = "Thesis";
 			t30 = space();
 			div10 = element("div");
 			div9 = element("div");
