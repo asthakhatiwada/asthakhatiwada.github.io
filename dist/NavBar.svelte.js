@@ -28,7 +28,7 @@ import { link } from "../_snowpack/pkg/svelte-spa-router.js";
 import active from "../_snowpack/pkg/svelte-spa-router/active.js";
 import menu from "../public/heroicons/outline/menu.svg.proxy.js";
 import cross from "../public/heroicons/outline/x.svg.proxy.js";
-import home from "../public/heroicons/solid/home.svg.js";
+import home from "../public/heroicons/solid/home.svg.proxy.js";
 
 function create_if_block_1(ctx) {
 	let inlinesvg;

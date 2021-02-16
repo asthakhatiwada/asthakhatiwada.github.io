@@ -20,7 +20,7 @@ import {
 } from "../../_snowpack/pkg/svelte/internal.js";
 
 import InlineSVG from "../../_snowpack/pkg/svelte-inline-svg.js";
-import star from "../../public/heroicons/solid/star.svg.js";
+import star from "../../public/heroicons/solid/star.svg.proxy.js";
 
 function create_fragment(ctx) {
 	let h10;
