@@ -158,9 +158,8 @@ function create_fragment(ctx) {
       <span class="italic">Kidney International.</span></p></div> 
   <div class="publication-item"><p>Richard MLL, Wirth JR,
       <strong>Khatiwada A</strong>, Chung D, Eudaly J, Gilkeson GS, Cunningham
-      MA. Deletion of ERα expression in CD11c+ cells reduce survival in female
-      mice and impacts pathways associated with cytokine signaling. Submitted to
-      <span class="italic">Journal of Immunology.</span></p></div>`;
+      MA. Conditional knockout of ERα in CD11c+ cells, impact on survival and inflammatory cytokines in murine lupus. Submitted to
+      <span class="italic">The Journal of Immunology.</span></p></div>`;
 
 			attr(h10, "class", "text-xl font-bold mb-4");
 			attr(div0, "class", "image-wrapper");
