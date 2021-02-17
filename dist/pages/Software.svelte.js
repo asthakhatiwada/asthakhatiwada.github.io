@@ -23,7 +23,7 @@ function create_fragment(ctx) {
       <p>Shiny app to interactively implement association mapping and investigate
         functional annotation tree.</p> 
       <p>Download from
-        <a class="external-link" href="">Github</a>(to be added later)</p></div></div>`;
+        <a class="external-link" href="https://github.com/asthakhatiwada/GPATree">Github</a>.</p></div></div>`;
 
 			attr(div3, "class", "px-2");
 		},
