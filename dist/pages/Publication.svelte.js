@@ -146,7 +146,7 @@ function create_fragment(ctx) {
       <strong>Khatiwada A</strong>, …, Chung D, Li Z). Immunological insights
       into the therapeutic roles of soluble CD24 against severe COVID-19.
       Submitted to
-      <span class="italic">New England Journal of Medicine.</span></p></div> 
+      <span class="italic">The New England Journal of Medicine.</span></p></div> 
   <div class="publication-item"><p><strong>Khatiwada A</strong>, Wolf BJ, Yilmaz AS, Ramos P, Pietrzak M,
       Lawson A, Hunt KJ, Kim HJ, Chung D. GPA-Tree: Statistical Approach for
       Functional-Annotation-Tree-Guided Prioritization of GWAS results.
