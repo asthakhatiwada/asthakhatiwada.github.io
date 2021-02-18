@@ -44,8 +44,9 @@ function create_fragment(ctx) {
   <div class="pl-2 md:pl-6"><div class="flex card-row"><p class="card-row-header svelte-1am8grb">Level</p> 
       <p class="">Graduate</p></div> 
     <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Topics covered</p> 
-      <p class="">Simple and multiple linear regression, logistic regression, model-based
-        hypothesis testing, diagnostics, model building and variable selection.</p></div> 
+      <p class="">Variety of advanced ANOVA and regression topics such as block designs,
+        repeated measures design, mixed effects models, analysis of missing data
+        and model diagnostics.</p></div> 
     <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Student group</p> 
       <p class="">MS/PhD Biostatistics students.</p></div> 
     <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Responsibilities</p> 
@@ -77,9 +78,8 @@ function create_fragment(ctx) {
   <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1am8grb">Level</p> 
       <p class="">Graduate</p></div> 
     <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Topics covered</p> 
-      <p class="">Variety of advanced ANOVA and regression topics such as block designs,
-        repeated measures design, mixed effects models, analysis of missing data
-        and model diagnostics.</p></div> 
+      <p class="">Simple and multiple linear regression, logistic regression, model-based
+        hypothesis testing, diagnostics, model building and variable selection.</p></div> 
     <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Student group</p> 
       <p class="">Clinical, basic science, MPH, MS/PhD Biostatistics/Epidemiology
         students.</p></div> 
