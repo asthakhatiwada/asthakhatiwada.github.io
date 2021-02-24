@@ -32,7 +32,7 @@ function create_fragment(ctx) {
     (retrospective cross-sectional cohort).</li> 
   <li class="description svelte-2capve">Identifying factors associated with retention of patient for Hepatitis C
     treatment (cross-sectional study).</li> 
-  <li class="description svelte-2capve">Predicting renal flare in LN patients using select urine and serum
+  <li class="description svelte-2capve">Predicting renal flare in Lupus Nephritis patients using select urine and serum
     biomarkers (longitudinal cohort).</li> 
   <li class="description svelte-2capve">Establishing genetic predisposition profiles of Lupus Nephritis patients to
     identify those at risk for renal damage (longitudinal cohort).</li>`;
