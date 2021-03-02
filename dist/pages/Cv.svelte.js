@@ -15,26 +15,24 @@ import {
 function create_fragment(ctx) {
 	let div;
 	let t1;
-	let embed;
-	let embed_src_value;
+	let iframe;
+	let iframe_src_value;
 
 	return {
 		c() {
 			div = element("div");
 			div.innerHTML = `<a class="external-link" href="/public/misc/Khatiwada_CV.pdf" download="">Download CV</a>`;
 			t1 = space();
-			embed = element("embed");
+			iframe = element("iframe");
 			attr(div, "class", "mb-4");
-			if (embed.src !== (embed_src_value = "/public/misc/Khatiwada_CV.pdf")) attr(embed, "src", embed_src_value);
-			attr(embed, "type", "application/pdf");
-			attr(embed, "width", "100%");
-			set_style(embed, "max-width", "800px");
-			attr(embed, "class", "flex-1 m-auto");
+			if (iframe.src !== (iframe_src_value = "/public/pdfjs/web/viewer.html")) attr(iframe, "src", iframe_src_value);
+			attr(iframe, "width", "100%");
+			set_style(iframe, "min-height", "1200px");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);
 			insert(target, t1, anchor);
-			insert(target, embed, anchor);
+			insert(target, iframe, anchor);
 		},
 		p: noop,
 		i: noop,
@@ -42,7 +40,7 @@ function create_fragment(ctx) {
 		d(detaching) {
 			if (detaching) detach(div);
 			if (detaching) detach(t1);
-			if (detaching) detach(embed);
+			if (detaching) detach(iframe);
 		}
 	};
 }
