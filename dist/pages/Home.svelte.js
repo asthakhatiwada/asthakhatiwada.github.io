@@ -68,7 +68,7 @@ function create_fragment(ctx) {
         <a class="external-link" target="_blank" href="http://faculty.etsu.edu/seier/">Dr. Edith Seier</a>
         from
         <a class="external-link" target="_blank" href="https://www.etsu.edu/ehome/">ETSU</a>
-        , and a BS degree in Mathematics (actuarial science emphasis) and a BA degree in
+        , and BS degree in Mathematics (actuarial science emphasis) and BA degree in
         Economics from
         <a class="external-link" target="_blank" href="https://www.mnstate.edu">MSUM</a>.</p>`;
 
