@@ -141,12 +141,13 @@ function create_fragment(ctx) {
 			t41 = space();
 			div15 = element("div");
 
-			div15.innerHTML = `<div class="publication-item"><p>The Pelotonia Institute for Immuno-Oncology, The Ohio State University
-      CD24Fc Covid19 Team (…,
-      <strong>Khatiwada A</strong>, …, Chung D, Li Z). Immunological insights
+			div15.innerHTML = `<div class="publication-item"><p>Song NJ, Allen C, Vilgelm. AE, 
+			Riesenberg BP, Weller KP, Reynolds K, Chakravarthy KB, Kumar A, <strong>Khatiwada A</strong>, Sun Z,
+			Ma A, Chang Y, Yusuf M, Li A, Zeng C, Evans JP, Bucci D, Gunasena M, Xu M, Liyanage NPM, 
+			Bolyard C, Velegraki M, Liu SL, Ma Q, Devenport M, Liu Y, Zheng P, Malvestutto CD, Chung D, Li Z. Immunological insights
       into the therapeutic roles of soluble CD24 against severe COVID-19.
       Submitted to
-      <span class="italic">The New England Journal of Medicine.</span></p></div> 
+      <span class="italic">The Lanchet.</span></p></div> 
   <div class="publication-item"><p><strong>Khatiwada A</strong>, Wolf BJ, Yilmaz AS, Ramos P, Pietrzak M,
       Lawson A, Hunt KJ, Kim HJ, Chung D. GPA-Tree: Statistical Approach for
       Functional-Annotation-Tree-Guided Prioritization of GWAS results.
