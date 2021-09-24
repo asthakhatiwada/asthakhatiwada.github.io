@@ -58,7 +58,7 @@ function create_fragment(ctx) {
 			t2 = space();
 			div1 = element("div");
 
-			div1.innerHTML = `<p>I am a PhD candidate in Biostatistics at the
+			div1.innerHTML = `<p>I am an Assistant Professor of Biostatistics and Bioinformatics at National Jewish Health. I received my PhD in Biostatistics from the
         <a class="external-link" target="_blank" href="https://web.musc.edu">Medical University of South Carolina</a>,
         working under the supervision of
         <a class="external-link" target="_blank" href="http://people.musc.edu/~wolfb/">Dr. Bethany Wolf</a>
