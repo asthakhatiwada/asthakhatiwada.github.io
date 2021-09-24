@@ -59,18 +59,16 @@ function create_fragment(ctx) {
 			div1 = element("div");
 
 			div1.innerHTML = `<p>I am an Assistant Professor of Biostatistics and Bioinformatics at National Jewish Health. I received my PhD 
-			in Biostatistics working under the supervision of
+			in Biostatistics under the supervision of
         <a class="external-link" target="_blank" href="http://people.musc.edu/~wolfb/">Dr. Bethany Wolf</a>
         and
         <a class="external-link" target="_blank" href="https://sites.google.com/site/statdchung/">Dr. Dongjun Chung</a> from the
-        <a class="external-link" target="_blank" href="https://web.musc.edu">Medical University of South Carolina</a>,
-        
-        a MS degree in Mathematics (statistics concentration) under
+        <a class="external-link" target="_blank" href="https://web.musc.edu">Medical University of South Carolina</a>, MS degree in Mathematics (statistics concentration) under
         the supervision of
         <a class="external-link" target="_blank" href="http://faculty.etsu.edu/seier/">Dr. Edith Seier</a>
         from
         <a class="external-link" target="_blank" href="https://www.etsu.edu/ehome/">ETSU</a>
-        , and a BS degree in Math (actuarial science emphasis) and a BA degree in
+        , and a BS degree in Mathematics (actuarial science emphasis) and a BA degree in
         Economics from
         <a class="external-link" target="_blank" href="https://www.mnstate.edu">MSUM</a>.</p>`;
 
