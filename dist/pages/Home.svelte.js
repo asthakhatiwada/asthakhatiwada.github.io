@@ -96,10 +96,10 @@ function create_fragment(ctx) {
 			div3 = element("div");
 
 			div3.innerHTML = `<p>Aastha Khatiwada</p> 
-      <p>Department of Public Health Sciences</p> 
-      <p>135 Cannon Place, Suite 305</p> 
-      <p>Charleston, SC 29425</p> 
-      <p>email: khatiwad at musc dot edu</p>`;
+      <p>Divison of Biostatistics and Bioinformatics</p> 
+      <p>1400 Jackson Street, Suite M222e</p> 
+      <p>Denver, CO 80206</p> 
+      <p>email: khatiwadaa at njhealth dot org</p>`;
 
 			attr(div0, "class", "md:w-1/3 pr-0 mb-4 md:mr-6");
 			attr(h20, "class", "mt-0 svelte-1uoq69v");
