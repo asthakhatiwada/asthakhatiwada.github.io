@@ -149,8 +149,8 @@ function create_fragment(ctx) {
   <div class="publication-item"><p>Song NJ, Allen C, Vilgelm AE, Riesenberg BP, Weller KP, Reynolds K, 
       Chakravarthy KB, Kumar A, <strong>Khatiwada A</strong>, Sun Z, Ma A, Chang Y, Yusuf M,Li A, 
       Zeng C, Evans JP, Bucci D, Gunasena M, Xu M, Liyanage NPM, Bolyard C, 
-      Velegraki M, Liu SL, Ma Q, Devenport M, Liu Y, Zheng P, Malvestutto CD#, 
-      Chung D#, Li Z#. Immunological insights into the therapeutic roles of 
+      Velegraki M, Liu SL, Ma Q, Devenport M, Liu Y, Zheng P, Malvestutto CD, 
+      Chung D, Li Z. Immunological insights into the therapeutic roles of 
       soluble CD24 against severe COVID-19. Submitted to
       <span class="italic">New England Journal of Medicine.</span></p></div> 
  <div class="publication-item"><p>Ayoub I, Wolf BJ, Geng L, Song H,
