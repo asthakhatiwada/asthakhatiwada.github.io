@@ -60,7 +60,7 @@ function create_fragment(ctx) {
 
 			div1.innerHTML = `<p>I am an Assistant Professor of Biostatistics and Bioinformatics at <a class="external-link" target="_blank" href="https://www.nationaljewish.org/home">National Jewish Health</a>. I received my PhD in Biostatistics under the supervision of <a class="external-link" target="_blank" href="http://people.musc.edu/~wolfb/">Dr. Bethany Wolf</a>
         and
-        <a class="external-link" target="_blank" href="https://sites.google.com/site/statdchung/">Dr. Dongjun Chung.</a> from the
+        <a class="external-link" target="_blank" href="https://sites.google.com/site/statdchung/">Dr. Dongjun Chung</a> from the
         <a class="external-link" target="_blank" href="https://web.musc.edu">Medical University of South Carolina</a>, Master&#39;s degree in Mathematics (statistics concentration) under
         the supervision of
         <a class="external-link" target="_blank" href="http://faculty.etsu.edu/seier/">Dr. Edith Seier</a>
