@@ -152,7 +152,7 @@ function create_fragment(ctx) {
       Velegraki M, Liu SL, Ma Q, Devenport M, Liu Y, Zheng P, Malvestutto CD#, 
       Chung D#, Li Z#. Immunological insights into the therapeutic roles of 
       soluble CD24 against severe COVID-19. Submitted to
-      <span class="italic">Cell Biology.</span></p></div> 
+      <span class="italic">New England Journal of Medicine.</span></p></div> 
  <div class="publication-item"><p>Ayoub I, Wolf BJ, Geng L, Song H,
       <strong>Khatiwada A</strong>, Tsao B, Oats J, Rovin B. Prediction Models
       of Treatment Response in Lupus Nephritis. Submitted to
