@@ -67,8 +67,8 @@ function create_fragment(ctx) {
         the supervision of
         <a class="external-link" target="_blank" href="http://faculty.etsu.edu/seier/">Dr. Edith Seier</a>
         from
-        <a class="external-link" target="_blank" href="https://www.etsu.edu/ehome/">ETSU</a>
-        , and Bachelor&#39;s degree in Mathematics (actuarial science emphasis) and Economics from
+        <a class="external-link" target="_blank" href="https://www.etsu.edu/ehome/">ETSU</a>, and Bachelor&#39;s degree in 
+        Mathematics (actuarial science emphasis) and Economics from
         <a class="external-link" target="_blank" href="https://www.mnstate.edu">MSUM</a>.</p>`;
 
 			t18 = space();
