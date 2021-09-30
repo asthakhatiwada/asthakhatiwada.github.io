@@ -164,12 +164,12 @@ function create_fragment(ctx) {
 
 			attr(h10, "class", "text-xl font-bold mb-4");
 			attr(div0, "class", "image-wrapper");
-			attr(p1, "class", "special-text svelte-o83a5v");
+			attr(p1, "class", "special-text svelte-zfisdh");
 			attr(div2, "class", "publication-item md:flex");
 			attr(div5, "class", "publication-item md:flex");
 			attr(div7, "class", "publication-item md:flex");
 			attr(h11, "class", "text-xl font-bold mb-4");
-			attr(p5, "class", "special-text svelte-o83a5v");
+			attr(p5, "class", "special-text svelte-zfisdh");
 			attr(div9, "class", "publication-item");
 			attr(h12, "class", "text-xl font-bold mb-4");
 		},

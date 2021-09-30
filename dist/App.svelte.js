@@ -32,17 +32,14 @@ import Footer from "./Footer.svelte.js";
 function create_fragment(ctx) {
 	let tailwindcss;
 	let t0;
-	let modeswitcher;
-	let t1;
 	let navbar;
-	let t2;
+	let t1;
 	let div;
 	let router;
-	let t3;
+	let t2;
 	let footer;
 	let current;
 	tailwindcss = new Tailwindcss({});
-	modeswitcher = new ModeSwitcher({});
 	navbar = new NavBar({});
 	router = new Router({ props: { routes: /*routes*/ ctx[0] } });
 	footer = new Footer({});
@@ -51,26 +48,22 @@ function create_fragment(ctx) {
 		c() {
 			create_component(tailwindcss.$$.fragment);
 			t0 = space();
-			create_component(modeswitcher.$$.fragment);
-			t1 = space();
 			create_component(navbar.$$.fragment);
-			t2 = space();
+			t1 = space();
 			div = element("div");
 			create_component(router.$$.fragment);
-			t3 = space();
+			t2 = space();
 			create_component(footer.$$.fragment);
-			attr(div, "class", "flex flex-col flex-grow max-w-screen-lg w-screen m-auto p-4");
+			attr(div, "class", "flex flex-col flex-grow max-w-screen-lg w-screen m-auto p-4 mt-16");
 		},
 		m(target, anchor) {
 			mount_component(tailwindcss, target, anchor);
 			insert(target, t0, anchor);
-			mount_component(modeswitcher, target, anchor);
-			insert(target, t1, anchor);
 			mount_component(navbar, target, anchor);
-			insert(target, t2, anchor);
+			insert(target, t1, anchor);
 			insert(target, div, anchor);
 			mount_component(router, div, null);
-			insert(target, t3, anchor);
+			insert(target, t2, anchor);
 			mount_component(footer, target, anchor);
 			current = true;
 		},
@@ -78,7 +71,6 @@ function create_fragment(ctx) {
 		i(local) {
 			if (current) return;
 			transition_in(tailwindcss.$$.fragment, local);
-			transition_in(modeswitcher.$$.fragment, local);
 			transition_in(navbar.$$.fragment, local);
 			transition_in(router.$$.fragment, local);
 			transition_in(footer.$$.fragment, local);
@@ -86,7 +78,6 @@ function create_fragment(ctx) {
 		},
 		o(local) {
 			transition_out(tailwindcss.$$.fragment, local);
-			transition_out(modeswitcher.$$.fragment, local);
 			transition_out(navbar.$$.fragment, local);
 			transition_out(router.$$.fragment, local);
 			transition_out(footer.$$.fragment, local);
@@ -95,13 +86,11 @@ function create_fragment(ctx) {
 		d(detaching) {
 			destroy_component(tailwindcss, detaching);
 			if (detaching) detach(t0);
-			destroy_component(modeswitcher, detaching);
-			if (detaching) detach(t1);
 			destroy_component(navbar, detaching);
-			if (detaching) detach(t2);
+			if (detaching) detach(t1);
 			if (detaching) detach(div);
 			destroy_component(router);
-			if (detaching) detach(t3);
+			if (detaching) detach(t2);
 			destroy_component(footer, detaching);
 		}
 	};

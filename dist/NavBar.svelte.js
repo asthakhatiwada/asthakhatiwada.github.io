@@ -212,7 +212,7 @@ function create_fragment(ctx) {
 			attr(nav, "class", "px-2 pt-2 pb-4 md:flex md:p-0");
 			attr(div2, "class", div2_class_value = "" + ((/*isNavOpen*/ ctx[0] ? "block" : "hidden") + " md:block"));
 			attr(div3, "class", "max-w-screen-lg m-auto md:flex md:justify-between md:px-4 md:py-3 md:pr-3 md:justify-center");
-			attr(header, "class", "dark:bg-gray-800 bg-gray-600");
+			attr(header, "class", "dark:bg-gray-800 bg-gray-600 fixed w-screen");
 		},
 		m(target, anchor) {
 			insert(target, header, anchor);

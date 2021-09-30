@@ -41,15 +41,15 @@ function create_fragment(ctx) {
 			div5 = element("div");
 
 			div5.innerHTML = `<h3 class="card-title">Teaching Assistant, BMTRY 702 – Advanced ANOVA and Regression, Fall 2020</h3> 
-  <div class="pl-2 md:pl-6"><div class="flex card-row"><p class="card-row-header svelte-1am8grb">Level</p> 
+  <div class="pl-2 md:pl-6"><div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Level</p> 
       <p class="">Graduate</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Topics covered</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Topics covered</p> 
       <p class="">Variety of advanced ANOVA and regression topics such as block designs,
         repeated measures design, mixed effects models, analysis of missing data
         and model diagnostics.</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Student group</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Student group</p> 
       <p class="">MS/PhD Biostatistics students.</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Responsibilities</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Responsibilities</p> 
       <p class="">Graded homework, provided course related support (lecture and SAS
         programming).</p></div></div>`;
 
@@ -57,16 +57,16 @@ function create_fragment(ctx) {
 			div11 = element("div");
 
 			div11.innerHTML = `<h3 class="card-title">Teaching Assistant, BMTRY 722 – Analysis of Survival Data, Summer 2019</h3> 
-  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1am8grb">Level</p> 
+  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Level</p> 
       <p class="">Graduate</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Topics covered</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Topics covered</p> 
       <p class="">Introductory course in theory and application of analytic methods for
         time-to-event data, including nonparametric, parametric, and
         semi-parametric (Cox model) approaches, different types of censoring,
         sample size and power estimation.</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Student group</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Student group</p> 
       <p class="">MS/PhD Biostatistics/ Epidemiology students.</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Responsibilities</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Responsibilities</p> 
       <p class="">Guest lectured on hypothesis testing and confidence interval calculation
         for survival outcomes; graded homework; provided homework and R
         programming support.</p></div></div>`;
@@ -75,15 +75,15 @@ function create_fragment(ctx) {
 			div17 = element("div");
 
 			div17.innerHTML = `<h3 class="card-title">Teaching Assistant, BMTRY 701 – Biostatistical Methods II, Fall 2018</h3> 
-  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1am8grb">Level</p> 
+  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Level</p> 
       <p class="">Graduate</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Topics covered</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Topics covered</p> 
       <p class="">Simple and multiple linear regression, logistic regression, model-based
         hypothesis testing, diagnostics, model building and variable selection.</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Student group</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Student group</p> 
       <p class="">Clinical, basic science, MPH, MS/PhD Biostatistics/Epidemiology
         students.</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Responsibilities</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Responsibilities</p> 
       <p class="">Provided statistical programming lectures (lab class for SAS and R) to
         support implementation of statistical methodologies discussed in the
         course; created and graded lab homework; graded class project.</p></div></div>`;
@@ -95,14 +95,14 @@ function create_fragment(ctx) {
 			div23 = element("div");
 
 			div23.innerHTML = `<h3 class="card-title">Teaching Associate, MATH 1530 – Probability and Statistics, 2015-2016</h3> 
-  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1am8grb">Level</p> 
+  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Level</p> 
       <p class="">Undergraduate</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Topics covered</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Topics covered</p> 
       <p class="">Probability rules, experimental data collection and analysis, sampling
         and survey techniques, statistical inference, hypothesis testing.</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Student group</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Student group</p> 
       <p class="">Freshmen/sophomore undergraduate students with limited math background.</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Responsibilities</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Responsibilities</p> 
       <p class="">Lecturing, creating and grading homework, conducting quizzes and exams,
         grading final student project, designing and implementing learning
         techniques helpful for students with special academic needs.</p></div></div>`;
@@ -111,16 +111,16 @@ function create_fragment(ctx) {
 			div27 = element("div");
 
 			div27.innerHTML = `<h3 class="card-title">Resident Adviser, Upward Bound, 2015-2016</h3> 
-  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1am8grb">Class</p> 
+  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Class</p> 
       <p class="">College Math Prep</p></div> 
-    <div class="flex card-row"><p class="card-row-header svelte-1am8grb">Responsibilities</p> 
+    <div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Responsibilities</p> 
       <p class="">Preparing high school students to take college-level math courses.</p></div></div>`;
 
 			t85 = space();
 			div30 = element("div");
 
 			div30.innerHTML = `<h3 class="card-title">Math and Statistics Tutor, Center for Academic Achievement, 2014-2015</h3> 
-  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1am8grb">Responsibilities</p> 
+  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Responsibilities</p> 
       <p class="">Assisting undergraduate students through individual tutoring sessions in
         math and statistics course work; helping students devise learning
         strategies to promote independent learning and avenues to succeed
@@ -133,7 +133,7 @@ function create_fragment(ctx) {
 			div33 = element("div");
 
 			div33.innerHTML = `<h3 class="card-title">Math and Statistics Tutor, Math Department, 2010-2012</h3> 
-  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1am8grb">Responsibilities</p> 
+  <div class="pl-6"><div class="flex card-row"><p class="card-row-header svelte-1lt5ldb">Responsibilities</p> 
       <p class="">Tutoring students in undergraduate-level math and statistics courses.</p></div></div>`;
 
 			attr(h20, "class", "mt-0");
