@@ -26,22 +26,22 @@ function create_fragment(ctx) {
 	let h20;
 	let t2;
 	let div1;
-	let t18;
+	let t16;
 	let h21;
-	let t20;
+	let t18;
 	let div2;
 	let p1;
-	let t22;
+	let t20;
 	let p2;
-	let t24;
+	let t22;
 	let p3;
-	let t25;
-	let a7;
+	let t23;
+	let a6;
 	let link_action;
-	let t27;
-	let t28;
+	let t25;
+	let t26;
 	let h22;
-	let t30;
+	let t28;
 	let div3;
 	let mounted;
 	let dispose;
@@ -64,37 +64,34 @@ function create_fragment(ctx) {
         <a class="external-link" target="_blank" href="https://sites.google.com/site/statdchung/">Dr. Dongjun Chung</a> from the
         <a class="external-link" target="_blank" href="https://web.musc.edu">Medical University of South Carolina</a>, 
         Master&#39;s degree in Mathematics (statistics concentration) under
-        the supervision of
-        <a class="external-link" target="_blank" href="http://faculty.etsu.edu/seier/">Dr. Edith Seier</a>
-        from
+        the supervision of Dr. Edith Seier from 
         <a class="external-link" target="_blank" href="https://www.etsu.edu/ehome/">ETSU</a>, and Bachelor&#39;s degree in 
         Mathematics (actuarial science emphasis) and Economics from
         <a class="external-link" target="_blank" href="https://www.mnstate.edu">MSUM</a>.</p>`;
 
-			t18 = space();
+			t16 = space();
 			h21 = element("h2");
 			h21.textContent = "Research Interest";
-			t20 = space();
+			t18 = space();
 			div2 = element("div");
 			p1 = element("p");
 			p1.textContent = "My research is focused on developing novel statistical approaches to\n        integrate genetic data with genomic functional annotation data applied\n        to complex diseases (e.g., systemic lupus erythematosus,\n        rheumatoid arthritis, ulcerative colitis, Crohn’s disease). More\n        generally, the goal of my research is to improve statistical power to\n        identify genetic variants associated with risk of complex diseases and\n        facilitate understanding of underlying molecular mechanisms related to\n        the disease-risk-associated genetic variants. I developed a statistical\n        approach, called GPA-Tree, that combines a machine learning algorithm\n        with the hierarchical modeling architecture for integrative analysis of\n        genome wide association studies (GWAS) data and functional annotation\n        information (e.g., gene expression, expression quantitative trait loci,\n        epigenetic marks).";
-			t22 = space();
+			t20 = space();
 			p2 = element("p");
 			p2.textContent = "Aside from independent research, I also enjoy multidisciplinary\n        collaborations, and work with clinical and translational scientists. I usually work alongside my collaborators to develop\n        research questions, design studies, perform statistical analysis,\n        interpret results and co-author manuscripts.";
-			t24 = space();
+			t22 = space();
 			p3 = element("p");
-			t25 = text("See my\n        ");
-			a7 = element("a");
-			a7.textContent = "CV";
-			t27 = text("\n        for additional details.");
-			t28 = space();
+			t23 = text("See my\n        ");
+			a6 = element("a");
+			a6.textContent = "CV";
+			t25 = text("\n        for additional details.");
+			t26 = space();
 			h22 = element("h2");
 			h22.textContent = "Contact";
-			t30 = space();
+			t28 = space();
 			div3 = element("div");
 
-			div3.innerHTML = `<p>Aastha Khatiwada</p> 
-      <p>Divison of Biostatistics and Bioinformatics</p>       
+			div3.innerHTML = `<p>Divison of Biostatistics and Bioinformatics</p>       
       <p>1400 Jackson St, M222e</p> 
       <p>Denver, CO 80206</p> 
       <p>phone: 303-398-1062</p> 
@@ -106,8 +103,8 @@ function create_fragment(ctx) {
 			attr(h21, "class", "text-xl font-bold mb-4 svelte-1uoq69v");
 			attr(p1, "class", "mt-4");
 			attr(p2, "class", "mt-4");
-			attr(a7, "href", "/cv");
-			attr(a7, "class", "external-link");
+			attr(a6, "href", "/cv");
+			attr(a6, "class", "external-link");
 			attr(p3, "class", "mt-4");
 			attr(h22, "class", "text-xl font-bold mb-4 svelte-1uoq69v");
 			attr(div4, "class", "md:w-2/3");
@@ -121,25 +118,25 @@ function create_fragment(ctx) {
 			append(div4, h20);
 			append(div4, t2);
 			append(div4, div1);
-			append(div4, t18);
+			append(div4, t16);
 			append(div4, h21);
-			append(div4, t20);
+			append(div4, t18);
 			append(div4, div2);
 			append(div2, p1);
-			append(div2, t22);
+			append(div2, t20);
 			append(div2, p2);
-			append(div2, t24);
+			append(div2, t22);
 			append(div2, p3);
+			append(p3, t23);
+			append(p3, a6);
 			append(p3, t25);
-			append(p3, a7);
-			append(p3, t27);
-			append(div4, t28);
+			append(div4, t26);
 			append(div4, h22);
-			append(div4, t30);
+			append(div4, t28);
 			append(div4, div3);
 
 			if (!mounted) {
-				dispose = action_destroyer(link_action = link.call(null, a7));
+				dispose = action_destroyer(link_action = link.call(null, a6));
 				mounted = true;
 			}
 		},
