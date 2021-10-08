@@ -52,7 +52,7 @@ function create_fragment(ctx) {
 	let t39;
 	let h12;
 	let t41;
-	let div15;
+	let div16;
 	let current;
 
 	inlinesvg0 = new InlineSVG({
@@ -139,9 +139,9 @@ function create_fragment(ctx) {
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
 			t41 = space();
-			div15 = element("div");
+			div16 = element("div");
 
-			div15.innerHTML = `<div class="publication-item"><p><strong>Khatiwada A</strong>, Wolf BJ, Yilmaz AS, Ramos P, Pietrzak M,
+			div16.innerHTML = `<div class="publication-item"><p><strong>Khatiwada A</strong>, Wolf BJ, Yilmaz AS, Ramos P, Pietrzak M,
       Lawson A, Hunt KJ, Kim HJ, Chung D. GPA-Tree: Statistical Approach for
       Functional-Annotation-Tree-Guided Prioritization of GWAS results.
       Submitted to
@@ -160,7 +160,9 @@ function create_fragment(ctx) {
   <div class="publication-item"><p>Richard MLL, Wirth JR,
       <strong>Khatiwada A</strong>, Chung D, Eudaly J, Gilkeson GS, Cunningham
       MA. Conditional knockout of ERα in CD11c+ cells, impact on survival and inflammatory cytokines in murine lupus. Submitted to
-      <span class="italic">The Journal of Immunology.</span></p></div>`;
+      <span class="italic">The Journal of Immunology.</span></p></div> 
+  <div class="publication-item"><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. Association of Referral Source and Substance Use with Hepatitis C Virus Outcomes at a Southern Academic Medical Center&quot; (the &quot;Work&quot;). Submitted to
+      <span class="italic">Southern Medical Journal.</span></p></div>`;
 
 			attr(h10, "class", "text-xl font-bold mb-4");
 			attr(div0, "class", "image-wrapper");
@@ -203,7 +205,7 @@ function create_fragment(ctx) {
 			insert(target, t39, anchor);
 			insert(target, h12, anchor);
 			insert(target, t41, anchor);
-			insert(target, div15, anchor);
+			insert(target, div16, anchor);
 			current = true;
 		},
 		p: noop,
@@ -231,7 +233,7 @@ function create_fragment(ctx) {
 			if (detaching) detach(t39);
 			if (detaching) detach(h12);
 			if (detaching) detach(t41);
-			if (detaching) detach(div15);
+			if (detaching) detach(div16);
 		}
 	};
 }
