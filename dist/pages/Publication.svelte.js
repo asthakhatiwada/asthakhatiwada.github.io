@@ -161,7 +161,7 @@ function create_fragment(ctx) {
       <strong>Khatiwada A</strong>, Chung D, Eudaly J, Gilkeson GS, Cunningham
       MA. Conditional knockout of ERα in CD11c+ cells, impact on survival and inflammatory cytokines in murine lupus. Submitted to
       <span class="italic">The Journal of Immunology.</span></p></div> 
-  <div class="publication-item"><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. Association of Referral Source and Substance Use with Hepatitis C Virus Outcomes at a Southern Academic Medical Center&quot; (the &quot;Work&quot;). Submitted to
+  <div class="publication-item"><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. Association of Referral Source and Substance Use with Hepatitis C Virus Outcomes at a Southern Academic Medical Center. Submitted to
       <span class="italic">Southern Medical Journal.</span></p></div>`;
 
 			attr(h10, "class", "text-xl font-bold mb-4");
