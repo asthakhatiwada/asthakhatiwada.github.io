@@ -79,7 +79,7 @@ function create_fragment(ctx) {
 			div11 = element("div");
 			div2 = element("div");
 
-			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/pr.png"/></div> 
+			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/bioinformatics.gif"/></div> 
     <div><p><strong>Khatiwada A</strong>, Wolf BJ, Yilmaz AS, Ramos PS, Pietrzak M, Lawson A, Hunt KJ, Kim HJ, Chung D.
         <a class="external-link" target="_blank" href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab802/6443109">GPA-Tree: 
           Statistical Approach for Functional-Annotation-Tree-Guided Prioritization of GWAS Results</a>.
