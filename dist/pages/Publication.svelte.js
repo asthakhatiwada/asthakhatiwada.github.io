@@ -54,7 +54,7 @@ function create_fragment(ctx) {
 	let t47;
 	let h12;
 	let t49;
-	let div20;
+	let div19;
 	let current;
 
 	inlinesvg0 = new InlineSVG({
@@ -151,14 +151,9 @@ function create_fragment(ctx) {
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
 			t49 = space();
-			div20 = element("div");
+			div19 = element("div");
 
-			div20.innerHTML = `<div class="publication-item"><p><strong>Khatiwada A</strong>, Wolf BJ, Yilmaz AS, Ramos P, Pietrzak M,
-      Lawson A, Hunt KJ, Kim HJ, Chung D. GPA-Tree: Statistical Approach for
-      Functional-Annotation-Tree-Guided Prioritization of GWAS results.
-      Submitted to
-      <span class="italic">Bioinformatics.</span></p></div> 
-  <div class="publication-item"><p>Song NJ, Allen C, Vilgelm AE, Riesenberg BP, Weller KP, Reynolds K, 
+			div19.innerHTML = `<div class="publication-item"><p>Song NJ, Allen C, Vilgelm AE, Riesenberg BP, Weller KP, Reynolds K, 
       Chakravarthy KB, Kumar A, <strong>Khatiwada A</strong>, Sun Z, Ma A, Chang Y, Yusuf M,Li A, 
       Zeng C, Evans JP, Bucci D, Gunasena M, Xu M, Liyanage NPM, Bolyard C, 
       Velegraki M, Liu SL, Ma Q, Devenport M, Liu Y, Zheng P, Malvestutto CD, 
@@ -222,7 +217,7 @@ function create_fragment(ctx) {
 			insert(target, t47, anchor);
 			insert(target, h12, anchor);
 			insert(target, t49, anchor);
-			insert(target, div20, anchor);
+			insert(target, div19, anchor);
 			current = true;
 		},
 		p: noop,
@@ -250,7 +245,7 @@ function create_fragment(ctx) {
 			if (detaching) detach(t47);
 			if (detaching) detach(h12);
 			if (detaching) detach(t49);
-			if (detaching) detach(div20);
+			if (detaching) detach(div19);
 		}
 	};
 }
