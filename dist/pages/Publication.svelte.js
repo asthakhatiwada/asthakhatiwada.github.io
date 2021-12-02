@@ -84,7 +84,7 @@ function create_fragment(ctx) {
         <a class="external-link" target="_blank" href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab802/6443109">GPA-Tree: 
           Statistical Approach for Functional-Annotation-Tree-Guided Prioritization of GWAS Results</a>.
         <span class="italic">Bioinformatics</span>
-        2021 Nov.</p></div>`;
+        2021 Nov 26:btab802. doi: 10.1093/bioinformatics/btab802. Epub ahead of print. PMID: 34849578.</p></div>`;
 
 			t9 = space();
 			div5 = element("div");
