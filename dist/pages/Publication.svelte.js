@@ -81,7 +81,7 @@ function create_fragment(ctx) {
 			div14 = element("div");
 			div2 = element("div");
 
-			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/bioinformatics.gif"/></div> 
+			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/ki.gif"/></div> 
     <div><p>Ayoub I, Wolf BJ, Geng L, Song H, <strong>Khatiwada A</strong>, Tsao BP, Oates JC, Rovin BH.
         <a class="external-link" target="_blank" href="https://doi.org/10.1016/j.kint.2021.11.014">Prediction Models of Treatment Response in Lupus Nephritis</a>.
         <span class="italic">Kidney Int.</span>
