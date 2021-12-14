@@ -87,16 +87,16 @@ function create_fragment(ctx) {
 
 			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
     <div><p>Beswick D, Humphries S, Balkissoon C, Strand M, Miller J,  <strong>Khatiwada A</strong>, Vladar E, Lynch DA, Taylor-Cousar J. 
-        <a class="external-link" target="_blank" href="">Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del.</a>.
-        <span class="italic">To appear in International Forum of Allergy &amp; Rhinology.</span></p></div>`;
+        <a class="external-link" target="_blank" href="">Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del.</a>. To appear in 
+        <span class="italic">International Forum of Allergy &amp; Rhinology.</span></p></div>`;
 
 			t9 = space();
 			div5 = element("div");
 
 			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
     <div><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. 
-        <a class="external-link" target="_blank" href="">Association of Referral Source and Substance Use with Hepatitis C Virus Outcomes at a Southern Academic Medical Center</a>.
-        <span class="italic">To appear in Southern Medical Journal.</span></p></div>`;
+        <a class="external-link" target="_blank" href="">Association of Referral Source and Substance Use with Hepatitis C Virus Outcomes at a Southern Academic Medical Center</a>. To appear in
+        <span class="italic">Southern Medical Journal.</span></p></div>`;
 
 			t17 = space();
 			div8 = element("div");
