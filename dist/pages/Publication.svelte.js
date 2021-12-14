@@ -27,39 +27,39 @@ function create_fragment(ctx) {
 	let t1;
 	let div20;
 	let div2;
-	let t9;
+	let t7;
 	let div5;
-	let t17;
+	let t13;
 	let div8;
-	let t26;
+	let t22;
 	let div11;
-	let t34;
+	let t30;
 	let div14;
 	let div12;
-	let t35;
+	let t31;
 	let div13;
 	let p4;
-	let t42;
+	let t38;
 	let p5;
 	let inlinesvg0;
-	let t43;
-	let t44;
+	let t39;
+	let t40;
 	let div17;
-	let t53;
+	let t49;
 	let div19;
-	let t61;
+	let t57;
 	let h11;
-	let t63;
+	let t59;
 	let div22;
 	let div21;
 	let p8;
-	let t70;
+	let t66;
 	let p9;
 	let inlinesvg1;
-	let t71;
-	let t72;
+	let t67;
+	let t68;
 	let h12;
-	let t74;
+	let t70;
 	let div25;
 	let current;
 
@@ -87,18 +87,19 @@ function create_fragment(ctx) {
 
 			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
     <div><p>Beswick D, Humphries S, Balkissoon C, Strand M, Miller J,  <strong>Khatiwada A</strong>, Vladar E, Lynch DA, Taylor-Cousar J. 
-        <a class="external-link" target="_blank" href="">Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del.</a>. To appear in 
+        Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del. To appear in 
         <span class="italic">International Forum of Allergy &amp; Rhinology.</span></p></div>`;
 
-			t9 = space();
+			t7 = space();
 			div5 = element("div");
 
 			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
     <div><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. 
-        <a class="external-link" target="_blank" href="">Association of Referral Source and Substance Use with Hepatitis C Virus Outcomes at a Southern Academic Medical Center</a>. To appear in
+        Association of Referral Source and Substance Use with Hepatitis C Virus 
+        Outcomes at a Southern Academic Medical Center. To appear in
         <span class="italic">The Southern Medical Journal.</span></p></div>`;
 
-			t17 = space();
+			t13 = space();
 			div8 = element("div");
 
 			div8.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/ki.JPG"/></div> 
@@ -107,7 +108,7 @@ function create_fragment(ctx) {
         <span class="italic">Kidney Int.</span>
         2021 Dec 3:S0085-2538(21)01079-6. Epub ahead of print. PMID: 34871620.</p></div>`;
 
-			t26 = space();
+			t22 = space();
 			div11 = element("div");
 
 			div11.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/bioinformatics.gif"/></div> 
@@ -117,11 +118,11 @@ function create_fragment(ctx) {
         <span class="italic">Bioinformatics</span>
         2021 Nov 26:btab802. Epub ahead of print. PMID: 34849578.</p></div>`;
 
-			t34 = space();
+			t30 = space();
 			div14 = element("div");
 			div12 = element("div");
 			div12.innerHTML = `<img class="publication-image" src="/public/img/pr.png"/>`;
-			t35 = space();
+			t31 = space();
 			div13 = element("div");
 			p4 = element("p");
 
@@ -133,11 +134,11 @@ function create_fragment(ctx) {
         <span class="italic">Pediatr Res.</span>
         2020 Apr; 20:1-9. PMID: 32311700.`;
 
-			t42 = space();
+			t38 = space();
 			p5 = element("p");
 			create_component(inlinesvg0.$$.fragment);
-			t43 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
-			t44 = space();
+			t39 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
+			t40 = space();
 			div17 = element("div");
 
 			div17.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/csam.gif"/></div> 
@@ -150,7 +151,7 @@ function create_fragment(ctx) {
         2020 Mar;27(2):225-239. PMID: 32566544; PMCID: PMC7304553 (*joint first
         author).</p></div>`;
 
-			t53 = space();
+			t49 = space();
 			div19 = element("div");
 
 			div19.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/po.gif"/></div> 
@@ -161,10 +162,10 @@ function create_fragment(ctx) {
       <span class="italic">Pediatr Obes.</span>
       2018 Oct;13(10):607-613. PMID: 30019385; PMCID: PMC6300983.</p>`;
 
-			t61 = space();
+			t57 = space();
 			h11 = element("h1");
 			h11.textContent = "Master's Thesis";
-			t63 = space();
+			t59 = space();
 			div22 = element("div");
 			div21 = element("div");
 			p8 = element("p");
@@ -174,14 +175,14 @@ function create_fragment(ctx) {
       <span class="italic">Electronic Theses and Dissertations.</span>
       2016; Paper 3090.`;
 
-			t70 = space();
+			t66 = space();
 			p9 = element("p");
 			create_component(inlinesvg1.$$.fragment);
-			t71 = text("\n        Downloaded over 2,100 times");
-			t72 = space();
+			t67 = text("\n        Downloaded over 2,100 times");
+			t68 = space();
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
-			t74 = space();
+			t70 = space();
 			div25 = element("div");
 
 			div25.innerHTML = `<div class="publication-item"><p>Song NJ, Allen C, Vilgelm AE, Riesenberg BP, Weller KP, Reynolds K, 
@@ -216,39 +217,39 @@ function create_fragment(ctx) {
 			insert(target, t1, anchor);
 			insert(target, div20, anchor);
 			append(div20, div2);
-			append(div20, t9);
+			append(div20, t7);
 			append(div20, div5);
-			append(div20, t17);
+			append(div20, t13);
 			append(div20, div8);
-			append(div20, t26);
+			append(div20, t22);
 			append(div20, div11);
-			append(div20, t34);
+			append(div20, t30);
 			append(div20, div14);
 			append(div14, div12);
-			append(div14, t35);
+			append(div14, t31);
 			append(div14, div13);
 			append(div13, p4);
-			append(div13, t42);
+			append(div13, t38);
 			append(div13, p5);
 			mount_component(inlinesvg0, p5, null);
-			append(p5, t43);
-			append(div20, t44);
+			append(p5, t39);
+			append(div20, t40);
 			append(div20, div17);
-			append(div20, t53);
+			append(div20, t49);
 			append(div20, div19);
-			insert(target, t61, anchor);
+			insert(target, t57, anchor);
 			insert(target, h11, anchor);
-			insert(target, t63, anchor);
+			insert(target, t59, anchor);
 			insert(target, div22, anchor);
 			append(div22, div21);
 			append(div21, p8);
-			append(div21, t70);
+			append(div21, t66);
 			append(div21, p9);
 			mount_component(inlinesvg1, p9, null);
-			append(p9, t71);
-			insert(target, t72, anchor);
+			append(p9, t67);
+			insert(target, t68, anchor);
 			insert(target, h12, anchor);
-			insert(target, t74, anchor);
+			insert(target, t70, anchor);
 			insert(target, div25, anchor);
 			current = true;
 		},
@@ -269,14 +270,14 @@ function create_fragment(ctx) {
 			if (detaching) detach(t1);
 			if (detaching) detach(div20);
 			destroy_component(inlinesvg0);
-			if (detaching) detach(t61);
+			if (detaching) detach(t57);
 			if (detaching) detach(h11);
-			if (detaching) detach(t63);
+			if (detaching) detach(t59);
 			if (detaching) detach(div22);
 			destroy_component(inlinesvg1);
-			if (detaching) detach(t72);
+			if (detaching) detach(t68);
 			if (detaching) detach(h12);
-			if (detaching) detach(t74);
+			if (detaching) detach(t70);
 			if (detaching) detach(div25);
 		}
 	};
