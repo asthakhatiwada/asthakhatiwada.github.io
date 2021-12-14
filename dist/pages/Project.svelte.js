@@ -30,8 +30,6 @@ function create_fragment(ctx) {
   <li class="description svelte-2capve">Exploring correlations between nailfold capillary parameters and myositis
     specific antibodies in newly diagnosed juvenile dermatomyositis patients
     (retrospective cross-sectional cohort).</li> 
-  <li class="description svelte-2capve">Identifying factors associated with retention of patient for Hepatitis C
-    treatment (cross-sectional study).</li> 
   <li class="description svelte-2capve">Predicting renal flare in Lupus Nephritis patients using select urine and serum
     biomarkers (longitudinal cohort).</li> 
   <li class="description svelte-2capve">Establishing genetic predisposition profiles of Lupus Nephritis patients to
