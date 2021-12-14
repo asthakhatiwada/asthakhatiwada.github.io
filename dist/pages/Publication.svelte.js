@@ -25,38 +25,42 @@ import star from "../../public/heroicons/solid/star.svg.proxy.js";
 function create_fragment(ctx) {
 	let h10;
 	let t1;
-	let div14;
+	let div20;
 	let div2;
-	let t10;
+	let t9;
 	let div5;
-	let t18;
+	let t17;
 	let div8;
-	let div6;
-	let t19;
-	let div7;
-	let p2;
 	let t26;
-	let p3;
-	let inlinesvg0;
-	let t27;
-	let t28;
 	let div11;
-	let t37;
+	let t34;
+	let div14;
+	let div12;
+	let t35;
 	let div13;
-	let t45;
+	let p4;
+	let t42;
+	let p5;
+	let inlinesvg0;
+	let t43;
+	let t44;
+	let div17;
+	let t53;
+	let div19;
+	let t61;
 	let h11;
-	let t47;
-	let div16;
-	let div15;
-	let p6;
-	let t54;
-	let p7;
-	let inlinesvg1;
-	let t55;
-	let t56;
-	let h12;
-	let t58;
+	let t63;
+	let div22;
 	let div21;
+	let p8;
+	let t70;
+	let p9;
+	let inlinesvg1;
+	let t71;
+	let t72;
+	let h12;
+	let t74;
+	let div25;
 	let current;
 
 	inlinesvg0 = new InlineSVG({
@@ -78,34 +82,50 @@ function create_fragment(ctx) {
 			h10 = element("h1");
 			h10.textContent = "Peer-reviewed Publications";
 			t1 = space();
-			div14 = element("div");
+			div20 = element("div");
 			div2 = element("div");
 
-			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/ki.JPG"/></div> 
+			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
+    <div><p>Beswick D, Humphries S, Balkissoon C, Strand M, Miller J,  <strong>Khatiwada A</strong>, Vladar E, Lynch DA, Taylor-Cousar J. 
+        <a class="external-link" target="_blank" href="">Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del.</a>.
+        <span class="italic">To appear in International Forum of Allergy &amp; Rhinology.</span></p></div>`;
+
+			t9 = space();
+			div5 = element("div");
+
+			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
+    <div><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. 
+        <a class="external-link" target="_blank" href="">Association of Referral Source and Substance Use with Hepatitis C Virus Outcomes at a Southern Academic Medical Center</a>.
+        <span class="italic">To appear in Southern Medical Journal.</span></p></div>`;
+
+			t17 = space();
+			div8 = element("div");
+
+			div8.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/ki.JPG"/></div> 
     <div><p>Ayoub I, Wolf BJ, Geng L, Song H, <strong>Khatiwada A</strong>, Tsao BP, Oates JC, Rovin BH.
         <a class="external-link" target="_blank" href="https://doi.org/10.1016/j.kint.2021.11.014">Prediction Models of Treatment Response in Lupus Nephritis</a>.
         <span class="italic">Kidney Int.</span>
         2021 Dec 3:S0085-2538(21)01079-6. Epub ahead of print. PMID: 34871620.</p></div>`;
 
-			t10 = space();
-			div5 = element("div");
+			t26 = space();
+			div11 = element("div");
 
-			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/bioinformatics.gif"/></div> 
+			div11.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/bioinformatics.gif"/></div> 
     <div><p><strong>Khatiwada A</strong>, Wolf BJ, Yilmaz AS, Ramos PS, Pietrzak M, Lawson A, Hunt KJ, Kim HJ, Chung D.
         <a class="external-link" target="_blank" href="https://doi.org/10.1093/bioinformatics/btab802">GPA-Tree: 
           Statistical Approach for Functional-Annotation-Tree-Guided Prioritization of GWAS Results</a>.
         <span class="italic">Bioinformatics</span>
         2021 Nov 26:btab802. Epub ahead of print. PMID: 34849578.</p></div>`;
 
-			t18 = space();
-			div8 = element("div");
-			div6 = element("div");
-			div6.innerHTML = `<img class="publication-image" src="/public/img/pr.png"/>`;
-			t19 = space();
-			div7 = element("div");
-			p2 = element("p");
+			t34 = space();
+			div14 = element("div");
+			div12 = element("div");
+			div12.innerHTML = `<img class="publication-image" src="/public/img/pr.png"/>`;
+			t35 = space();
+			div13 = element("div");
+			p4 = element("p");
 
-			p2.innerHTML = `<strong>Khatiwada A</strong>, Wolf BJ, Mulligan JK, Shary JR, Hewison M,
+			p4.innerHTML = `<strong>Khatiwada A</strong>, Wolf BJ, Mulligan JK, Shary JR, Hewison M,
         Baatz JE, Newton DA, Hawrylowicz C, Hollis BW, Wagner CL.
         <a class="external-link" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/32311700/">Effects of vitamin D
           supplementation on circulating concentrations of growth factors and
@@ -113,14 +133,14 @@ function create_fragment(ctx) {
         <span class="italic">Pediatr Res.</span>
         2020 Apr; 20:1-9. PMID: 32311700.`;
 
-			t26 = space();
-			p3 = element("p");
+			t42 = space();
+			p5 = element("p");
 			create_component(inlinesvg0.$$.fragment);
-			t27 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
-			t28 = space();
-			div11 = element("div");
+			t43 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
+			t44 = space();
+			div17 = element("div");
 
-			div11.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/csam.gif"/></div> 
+			div17.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/csam.gif"/></div> 
     <div><p>Nam JH*,
         <strong>Khatiwada A*</strong>, Matthews LJ, Schulte BA, Dubno JR, Chung
         D.
@@ -130,10 +150,10 @@ function create_fragment(ctx) {
         2020 Mar;27(2):225-239. PMID: 32566544; PMCID: PMC7304553 (*joint first
         author).</p></div>`;
 
-			t37 = space();
-			div13 = element("div");
+			t53 = space();
+			div19 = element("div");
 
-			div13.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/po.gif"/></div> 
+			div19.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/po.gif"/></div> 
     <p><strong>Khatiwada A</strong>, Shoaibi A, Neelon B, Emond JA,
       Benjamin-Neelon SE.
       <a class="external-link" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30019385/">Household chaos during
@@ -141,30 +161,30 @@ function create_fragment(ctx) {
       <span class="italic">Pediatr Obes.</span>
       2018 Oct;13(10):607-613. PMID: 30019385; PMCID: PMC6300983.</p>`;
 
-			t45 = space();
+			t61 = space();
 			h11 = element("h1");
 			h11.textContent = "Master's Thesis";
-			t47 = space();
-			div16 = element("div");
-			div15 = element("div");
-			p6 = element("p");
+			t63 = space();
+			div22 = element("div");
+			div21 = element("div");
+			p8 = element("p");
 
-			p6.innerHTML = `<strong>Khatiwada A</strong>. 
+			p8.innerHTML = `<strong>Khatiwada A</strong>. 
       <a class="external-link" target="_blank" href="https://dc.etsu.edu/etd/3090/.">Multilevel Models for Longitudinal Data</a>.
       <span class="italic">Electronic Theses and Dissertations.</span>
       2016; Paper 3090.`;
 
-			t54 = space();
-			p7 = element("p");
+			t70 = space();
+			p9 = element("p");
 			create_component(inlinesvg1.$$.fragment);
-			t55 = text("\n        Downloaded over 2,100 times");
-			t56 = space();
+			t71 = text("\n        Downloaded over 2,100 times");
+			t72 = space();
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
-			t58 = space();
-			div21 = element("div");
+			t74 = space();
+			div25 = element("div");
 
-			div21.innerHTML = `<div class="publication-item"><p>Song NJ, Allen C, Vilgelm AE, Riesenberg BP, Weller KP, Reynolds K, 
+			div25.innerHTML = `<div class="publication-item"><p>Song NJ, Allen C, Vilgelm AE, Riesenberg BP, Weller KP, Reynolds K, 
       Chakravarthy KB, Kumar A, <strong>Khatiwada A</strong>, Sun Z, Ma A, Chang Y, Yusuf M,Li A, 
       Zeng C, Evans JP, Bucci D, Gunasena M, Xu M, Liyanage NPM, Bolyard C, 
       Velegraki M, Liu SL, Ma Q, Devenport M, Liu Y, Zheng P, Malvestutto CD, 
@@ -174,60 +194,62 @@ function create_fragment(ctx) {
  <div class="publication-item"><p>Richard MLL, Wirth JR,
       <strong>Khatiwada A</strong>, Chung D, Eudaly J, Gilkeson GS, Cunningham
       MA. Conditional knockout of ERα in CD11c+ cells, impact on survival and inflammatory cytokines in murine lupus. Submitted to
-      <span class="italic">The Journal of Immunology.</span></p></div> 
-  <div class="publication-item"><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. Association of Referral Source and Substance Use with Hepatitis C Virus Outcomes at a Southern Academic Medical Center. Submitted to
-      <span class="italic">Southern Medical Journal.</span></p></div> 
-  <div class="publication-item"><p>Beswick D, Humphries S, Balkissoon C, Strand M, Miller J,  <strong>Khatiwada A</strong>, Vladar E, Lynch DA, Taylor-Cousar J. Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del. Submitted to
-      <span class="italic">International Forum of Allergy &amp; Rhinology.</span></p></div>`;
+      <span class="italic">The Journal of Immunology.</span></p></div>`;
 
 			attr(h10, "class", "text-xl font-bold mb-4");
 			attr(div2, "class", "publication-item md:flex");
 			attr(div5, "class", "publication-item md:flex");
-			attr(div6, "class", "image-wrapper");
-			attr(p3, "class", "special-text svelte-zfisdh");
 			attr(div8, "class", "publication-item md:flex");
 			attr(div11, "class", "publication-item md:flex");
-			attr(div13, "class", "publication-item md:flex");
+			attr(div12, "class", "image-wrapper");
+			attr(p5, "class", "special-text svelte-zfisdh");
+			attr(div14, "class", "publication-item md:flex");
+			attr(div17, "class", "publication-item md:flex");
+			attr(div19, "class", "publication-item md:flex");
 			attr(h11, "class", "text-xl font-bold mb-4");
-			attr(p7, "class", "special-text svelte-zfisdh");
-			attr(div15, "class", "publication-item");
+			attr(p9, "class", "special-text svelte-zfisdh");
+			attr(div21, "class", "publication-item");
 			attr(h12, "class", "text-xl font-bold mb-4");
 		},
 		m(target, anchor) {
 			insert(target, h10, anchor);
 			insert(target, t1, anchor);
-			insert(target, div14, anchor);
-			append(div14, div2);
-			append(div14, t10);
-			append(div14, div5);
-			append(div14, t18);
-			append(div14, div8);
-			append(div8, div6);
-			append(div8, t19);
-			append(div8, div7);
-			append(div7, p2);
-			append(div7, t26);
-			append(div7, p3);
-			mount_component(inlinesvg0, p3, null);
-			append(p3, t27);
-			append(div14, t28);
-			append(div14, div11);
-			append(div14, t37);
+			insert(target, div20, anchor);
+			append(div20, div2);
+			append(div20, t9);
+			append(div20, div5);
+			append(div20, t17);
+			append(div20, div8);
+			append(div20, t26);
+			append(div20, div11);
+			append(div20, t34);
+			append(div20, div14);
+			append(div14, div12);
+			append(div14, t35);
 			append(div14, div13);
-			insert(target, t45, anchor);
+			append(div13, p4);
+			append(div13, t42);
+			append(div13, p5);
+			mount_component(inlinesvg0, p5, null);
+			append(p5, t43);
+			append(div20, t44);
+			append(div20, div17);
+			append(div20, t53);
+			append(div20, div19);
+			insert(target, t61, anchor);
 			insert(target, h11, anchor);
-			insert(target, t47, anchor);
-			insert(target, div16, anchor);
-			append(div16, div15);
-			append(div15, p6);
-			append(div15, t54);
-			append(div15, p7);
-			mount_component(inlinesvg1, p7, null);
-			append(p7, t55);
-			insert(target, t56, anchor);
+			insert(target, t63, anchor);
+			insert(target, div22, anchor);
+			append(div22, div21);
+			append(div21, p8);
+			append(div21, t70);
+			append(div21, p9);
+			mount_component(inlinesvg1, p9, null);
+			append(p9, t71);
+			insert(target, t72, anchor);
 			insert(target, h12, anchor);
-			insert(target, t58, anchor);
-			insert(target, div21, anchor);
+			insert(target, t74, anchor);
+			insert(target, div25, anchor);
 			current = true;
 		},
 		p: noop,
@@ -245,17 +267,17 @@ function create_fragment(ctx) {
 		d(detaching) {
 			if (detaching) detach(h10);
 			if (detaching) detach(t1);
-			if (detaching) detach(div14);
+			if (detaching) detach(div20);
 			destroy_component(inlinesvg0);
-			if (detaching) detach(t45);
+			if (detaching) detach(t61);
 			if (detaching) detach(h11);
-			if (detaching) detach(t47);
-			if (detaching) detach(div16);
+			if (detaching) detach(t63);
+			if (detaching) detach(div22);
 			destroy_component(inlinesvg1);
-			if (detaching) detach(t56);
+			if (detaching) detach(t72);
 			if (detaching) detach(h12);
-			if (detaching) detach(t58);
-			if (detaching) detach(div21);
+			if (detaching) detach(t74);
+			if (detaching) detach(div25);
 		}
 	};
 }
