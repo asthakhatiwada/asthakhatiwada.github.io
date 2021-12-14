@@ -96,7 +96,7 @@ function create_fragment(ctx) {
 			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
     <div><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. 
         <a class="external-link" target="_blank" href="">Association of Referral Source and Substance Use with Hepatitis C Virus Outcomes at a Southern Academic Medical Center</a>. To appear in
-        <span class="italic">Southern Medical Journal.</span></p></div>`;
+        <span class="italic">The Southern Medical Journal.</span></p></div>`;
 
 			t17 = space();
 			div8 = element("div");
