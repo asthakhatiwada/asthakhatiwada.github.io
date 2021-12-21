@@ -98,7 +98,7 @@ function create_fragment(ctx) {
 			t7 = space();
 			div5 = element("div");
 
-			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
+			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/alr.jpeg"/></div> 
     <div><p>Beswick D, Humphries S, Balkissoon C, Strand M, Miller J,  <strong>Khatiwada A</strong>, Vladar E, Lynch DA, Taylor-Cousar J. 
         Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del. To appear in 
         <span class="italic">International Forum of Allergy &amp; Rhinology.</span></p></div>`;
