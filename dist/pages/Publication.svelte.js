@@ -62,7 +62,7 @@ function create_fragment(ctx) {
 	let t74;
 	let h12;
 	let t76;
-	let div27;
+	let div28;
 	let current;
 
 	inlinesvg0 = new InlineSVG({
@@ -196,12 +196,15 @@ function create_fragment(ctx) {
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
 			t76 = space();
-			div27 = element("div");
+			div28 = element("div");
 
-			div27.innerHTML = `<div class="publication-item"><p>Richard MLL, Wirth JR,
+			div28.innerHTML = `<div class="publication-item"><p>Richard MLL, Wirth JR,
       <strong>Khatiwada A</strong>, Chung D, Eudaly J, Gilkeson GS, Cunningham
       MA. Conditional knockout of ERα in CD11c+ cells, impact on survival and inflammatory cytokines in murine lupus. Submitted to
-      <span class="italic">The Journal of Immunology.</span></p></div>`;
+      <span class="italic">The Journal of Immunology.</span></p></div> 
+  <div class="publication-item"><p>Strand M, <strong>Khatiwada A</strong>, Baraghoshi D, Lynch D, Silverman E, Bhatt S, Austin E, Regan E, Boriek A, Crapo J. 
+      Predicting COPD progression in current and former smokers using a joint model for FEV1 and FEV1/FVC. 
+      Submitted to <span class="italic">Chronic Obstructive Pulmonary Diseases: Journal of the COPD Foundation.</span></p></div>`;
 
 			attr(h10, "class", "text-xl font-bold mb-4");
 			attr(div2, "class", "publication-item md:flex");
@@ -259,7 +262,7 @@ function create_fragment(ctx) {
 			insert(target, t74, anchor);
 			insert(target, h12, anchor);
 			insert(target, t76, anchor);
-			insert(target, div27, anchor);
+			insert(target, div28, anchor);
 			current = true;
 		},
 		p: noop,
@@ -287,7 +290,7 @@ function create_fragment(ctx) {
 			if (detaching) detach(t74);
 			if (detaching) detach(h12);
 			if (detaching) detach(t76);
-			if (detaching) detach(div27);
+			if (detaching) detach(div28);
 		}
 	};
 }
