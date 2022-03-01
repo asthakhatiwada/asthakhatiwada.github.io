@@ -93,7 +93,7 @@ function create_fragment(ctx) {
         Zeng C, Evans JP, Bucci D, Gunasena M, Xu M, Liyanage NPM, Bolyard C, 
         Velegraki M, Liu SL, Ma Q, Devenport M, Liu Y, Zheng P, Malvestutto CD, 
         Chung D, Li Z.
-        <a class="external-link" target="_blank" href="https://doi.org/10.1186/s13045-021-01222-y">Treatment with soluble CD24 attenuates COVID-19-associated systemic immunopathology.</a>.
+        <a class="external-link" target="_blank" href="https://doi.org/10.1186/s13045-021-01222-y">Treatment with soluble CD24 attenuates COVID-19-associated systemic immunopathology</a>.
         <span class="italic">Journal of Hematology &amp; Oncology.</span>
         15, 5 (2022).</p></div>`;
 
@@ -102,7 +102,7 @@ function create_fragment(ctx) {
 
 			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/alr.jpeg"/></div> 
     <div><p>Beswick D, Humphries S, Balkissoon C, Strand M, Miller J,  <strong>Khatiwada A</strong>, Vladar E, Lynch DA, Taylor-Cousar J.
-        <a class="external-link" target="_blank" href="https://doi.org/10.1002/alr.22946">Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del.</a> 
+        <a class="external-link" target="_blank" href="https://doi.org/10.1002/alr.22946">Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del</a>.
         <span class="italic">International Forum of Allergy &amp; Rhinology.</span>
         2021 Dec 15. PMID: 34908251.</p></div>`;
 
