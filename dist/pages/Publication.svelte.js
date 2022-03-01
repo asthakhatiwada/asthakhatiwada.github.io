@@ -27,41 +27,41 @@ function create_fragment(ctx) {
 	let t1;
 	let div23;
 	let div2;
-	let t7;
+	let t10;
 	let div5;
-	let t13;
+	let t16;
 	let div8;
-	let t19;
+	let t22;
 	let div11;
-	let t28;
+	let t31;
 	let div14;
-	let t36;
+	let t39;
 	let div17;
 	let div15;
-	let t37;
+	let t40;
 	let div16;
 	let p5;
-	let t44;
+	let t47;
 	let p6;
 	let inlinesvg0;
-	let t45;
-	let t46;
+	let t48;
+	let t49;
 	let div20;
-	let t55;
+	let t58;
 	let div22;
-	let t63;
+	let t66;
 	let h11;
-	let t65;
+	let t68;
 	let div25;
 	let div24;
 	let p9;
-	let t72;
+	let t75;
 	let p10;
 	let inlinesvg1;
-	let t73;
-	let t74;
-	let h12;
 	let t76;
+	let t77;
+	let h12;
+	let t79;
 	let div28;
 	let current;
 
@@ -87,15 +87,17 @@ function create_fragment(ctx) {
 			div23 = element("div");
 			div2 = element("div");
 
-			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
+			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/journalho.jpeg"/></div> 
     <div><p>Song NJ, Allen C, Vilgelm AE, Riesenberg BP, Weller KP, Reynolds K, 
-      Chakravarthy KB, Kumar A, <strong>Khatiwada A</strong>, Sun Z, Ma A, Chang Y, Yusuf M,Li A, 
-      Zeng C, Evans JP, Bucci D, Gunasena M, Xu M, Liyanage NPM, Bolyard C, 
-      Velegraki M, Liu SL, Ma Q, Devenport M, Liu Y, Zheng P, Malvestutto CD, 
-      Chung D, Li Z. Immunological insights into the therapeutic roles of 
-      soluble CD24 against severe COVID-19. To appear in <span class="italic">Journal of Hematology &amp; Oncology.</span></p></div>`;
+        Chakravarthy KB, Kumar A, <strong>Khatiwada A</strong>, Sun Z, Ma A, Chang Y, Yusuf M,Li A, 
+        Zeng C, Evans JP, Bucci D, Gunasena M, Xu M, Liyanage NPM, Bolyard C, 
+        Velegraki M, Liu SL, Ma Q, Devenport M, Liu Y, Zheng P, Malvestutto CD, 
+        Chung D, Li Z.
+        <a class="external-link" target="_blank" href="https://doi.org/10.1186/s13045-021-01222-y">Treatment with soluble CD24 attenuates COVID-19-associated systemic immunopathology.</a>.
+        <span class="italic">Journal of Hematology &amp; Oncology.</span>
+        15, 5 (2022).</p></div>`;
 
-			t7 = space();
+			t10 = space();
 			div5 = element("div");
 
 			div5.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/alr.jpeg"/></div> 
@@ -103,7 +105,7 @@ function create_fragment(ctx) {
         Olfactory Dysfunction in People with Cystic Fibrosis with at least One Copy of F508del. To appear in 
         <span class="italic">International Forum of Allergy &amp; Rhinology.</span></p></div>`;
 
-			t13 = space();
+			t16 = space();
 			div8 = element("div");
 
 			div8.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/"/></div> 
@@ -112,7 +114,7 @@ function create_fragment(ctx) {
         Outcomes at a Southern Academic Medical Center. To appear in
         <span class="italic">The Southern Medical Journal.</span></p></div>`;
 
-			t19 = space();
+			t22 = space();
 			div11 = element("div");
 
 			div11.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/ki.JPG"/></div> 
@@ -121,7 +123,7 @@ function create_fragment(ctx) {
         <span class="italic">Kidney Int.</span>
         2021 Dec 3:S0085-2538(21)01079-6. Epub ahead of print. PMID: 34871620.</p></div>`;
 
-			t28 = space();
+			t31 = space();
 			div14 = element("div");
 
 			div14.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/bioinformatics.gif"/></div> 
@@ -131,11 +133,11 @@ function create_fragment(ctx) {
         <span class="italic">Bioinformatics</span>
         2021 Nov 26:btab802. Epub ahead of print. PMID: 34849578.</p></div>`;
 
-			t36 = space();
+			t39 = space();
 			div17 = element("div");
 			div15 = element("div");
 			div15.innerHTML = `<img class="publication-image" src="/public/img/pr.png"/>`;
-			t37 = space();
+			t40 = space();
 			div16 = element("div");
 			p5 = element("p");
 
@@ -147,11 +149,11 @@ function create_fragment(ctx) {
         <span class="italic">Pediatr Res.</span>
         2020 Apr; 20:1-9. PMID: 32311700.`;
 
-			t44 = space();
+			t47 = space();
 			p6 = element("p");
 			create_component(inlinesvg0.$$.fragment);
-			t45 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
-			t46 = space();
+			t48 = text("\n        Highlighted in the Editor’s Focus for the February 2021 print issue of\n        Pediatric Research");
+			t49 = space();
 			div20 = element("div");
 
 			div20.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/csam.gif"/></div> 
@@ -164,7 +166,7 @@ function create_fragment(ctx) {
         2020 Mar;27(2):225-239. PMID: 32566544; PMCID: PMC7304553 (*joint first
         author).</p></div>`;
 
-			t55 = space();
+			t58 = space();
 			div22 = element("div");
 
 			div22.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/po.gif"/></div> 
@@ -175,10 +177,10 @@ function create_fragment(ctx) {
       <span class="italic">Pediatr Obes.</span>
       2018 Oct;13(10):607-613. PMID: 30019385; PMCID: PMC6300983.</p>`;
 
-			t63 = space();
+			t66 = space();
 			h11 = element("h1");
 			h11.textContent = "Master's Thesis";
-			t65 = space();
+			t68 = space();
 			div25 = element("div");
 			div24 = element("div");
 			p9 = element("p");
@@ -188,14 +190,14 @@ function create_fragment(ctx) {
       <span class="italic">Electronic Theses and Dissertations.</span>
       2016; Paper 3090.`;
 
-			t72 = space();
+			t75 = space();
 			p10 = element("p");
 			create_component(inlinesvg1.$$.fragment);
-			t73 = text("\n        Downloaded over 2,100 times");
-			t74 = space();
+			t76 = text("\n        Downloaded over 2,100 times");
+			t77 = space();
 			h12 = element("h1");
 			h12.textContent = "Manuscript under Review";
-			t76 = space();
+			t79 = space();
 			div28 = element("div");
 
 			div28.innerHTML = `<div class="publication-item"><p>Richard MLL, Wirth JR,
@@ -227,41 +229,41 @@ function create_fragment(ctx) {
 			insert(target, t1, anchor);
 			insert(target, div23, anchor);
 			append(div23, div2);
-			append(div23, t7);
+			append(div23, t10);
 			append(div23, div5);
-			append(div23, t13);
+			append(div23, t16);
 			append(div23, div8);
-			append(div23, t19);
+			append(div23, t22);
 			append(div23, div11);
-			append(div23, t28);
+			append(div23, t31);
 			append(div23, div14);
-			append(div23, t36);
+			append(div23, t39);
 			append(div23, div17);
 			append(div17, div15);
-			append(div17, t37);
+			append(div17, t40);
 			append(div17, div16);
 			append(div16, p5);
-			append(div16, t44);
+			append(div16, t47);
 			append(div16, p6);
 			mount_component(inlinesvg0, p6, null);
-			append(p6, t45);
-			append(div23, t46);
+			append(p6, t48);
+			append(div23, t49);
 			append(div23, div20);
-			append(div23, t55);
+			append(div23, t58);
 			append(div23, div22);
-			insert(target, t63, anchor);
+			insert(target, t66, anchor);
 			insert(target, h11, anchor);
-			insert(target, t65, anchor);
+			insert(target, t68, anchor);
 			insert(target, div25, anchor);
 			append(div25, div24);
 			append(div24, p9);
-			append(div24, t72);
+			append(div24, t75);
 			append(div24, p10);
 			mount_component(inlinesvg1, p10, null);
-			append(p10, t73);
-			insert(target, t74, anchor);
+			append(p10, t76);
+			insert(target, t77, anchor);
 			insert(target, h12, anchor);
-			insert(target, t76, anchor);
+			insert(target, t79, anchor);
 			insert(target, div28, anchor);
 			current = true;
 		},
@@ -282,14 +284,14 @@ function create_fragment(ctx) {
 			if (detaching) detach(t1);
 			if (detaching) detach(div23);
 			destroy_component(inlinesvg0);
-			if (detaching) detach(t63);
+			if (detaching) detach(t66);
 			if (detaching) detach(h11);
-			if (detaching) detach(t65);
+			if (detaching) detach(t68);
 			if (detaching) detach(div25);
 			destroy_component(inlinesvg1);
-			if (detaching) detach(t74);
+			if (detaching) detach(t77);
 			if (detaching) detach(h12);
-			if (detaching) detach(t76);
+			if (detaching) detach(t79);
 			if (detaching) detach(div28);
 		}
 	};
