@@ -102,10 +102,10 @@ function create_fragment(ctx) {
 
 			div2.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/smj.png"/></div> 
     <div><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. 
-        <a class="external-link" target="_blank" href="https://10.1002/alr.23016">Association of Referral Source and Substance Use with Hepatitis C Virus 
+        <a class="external-link" target="_blank" href="https://10.14423/SMJ.0000000000001402">Association of Referral Source and Substance Use with Hepatitis C Virus 
         Outcomes at a Southern Academic Medical Center.</a>   
         <span class="italic">Southern Medical Journal.</span>
-        2022 Jun;115(6):352-357. doi: 10.14423/SMJ.0000000000001402. PMID: 35649518.</p></div>`;
+        2022 Jun;115(6):352-357. PMID: 35649518.</p></div>`;
 
 			t12 = space();
 			div5 = element("div");
