@@ -91,7 +91,7 @@ function create_fragment(ctx) {
 			t28 = space();
 			div3 = element("div");
 
-			div3.innerHTML = `<p>Division of Biostatistics</p>       
+			div3.innerHTML = `<p>Division of Biostatistics and Bioinformatics</p>       
       <p>1400 Jackson St, M222e</p> 
       <p>Denver, CO 80206</p> 
       <p>phone: 303-398-1062</p> 
