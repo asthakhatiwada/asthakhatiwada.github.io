@@ -131,7 +131,7 @@ function create_fragment(ctx) {
 			t30 = space();
 			div11 = element("div");
 
-			div11.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/smj.png"/></div> 
+			div11.innerHTML = `<div class="image-wrapper"><img class="publication-image" src="/public/img/smj.jpeg"/></div> 
     <div><p>Burton JH, <strong>Khatiwada A</strong>, Chung D, Meissner EG. 
         <a class="external-link" target="_blank" href="https://doi.org/10.14423/smj.0000000000001402">Association of Referral Source and Substance Use with Hepatitis C Virus 
         Outcomes at a Southern Academic Medical Center.</a>   
