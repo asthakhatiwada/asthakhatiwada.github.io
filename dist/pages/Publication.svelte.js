@@ -75,10 +75,6 @@ function create_fragment(ctx) {
 	let p14;
 	let inlinesvg1;
 	let t126;
-	let t127;
-	let h12;
-	let t129;
-	let div39;
 	let current;
 
 	inlinesvg0 = new InlineSVG({
@@ -263,12 +259,6 @@ function create_fragment(ctx) {
 			p14 = element("p");
 			create_component(inlinesvg1.$$.fragment);
 			t126 = text("\n        Downloaded over 2,100 times");
-			t127 = space();
-			h12 = element("h1");
-			h12.textContent = "Manuscript under Review";
-			t129 = space();
-			div39 = element("div");
-			div39.innerHTML = `<div class="publication-item"><p></p></div>`;
 			attr(h10, "class", "text-xl font-bold mb-4");
 			attr(h20, "class", "text-xl font-bold mb-4");
 			attr(div2, "class", "publication-item md:flex");
@@ -291,7 +281,6 @@ function create_fragment(ctx) {
 			attr(h11, "class", "text-xl font-bold mb-4");
 			attr(p14, "class", "special-text svelte-zfisdh");
 			attr(div36, "class", "publication-item");
-			attr(h12, "class", "text-xl font-bold mb-4");
 		},
 		m(target, anchor) {
 			insert(target, h10, anchor);
@@ -346,10 +335,6 @@ function create_fragment(ctx) {
 			append(div36, p14);
 			mount_component(inlinesvg1, p14, null);
 			append(p14, t126);
-			insert(target, t127, anchor);
-			insert(target, h12, anchor);
-			insert(target, t129, anchor);
-			insert(target, div39, anchor);
 			current = true;
 		},
 		p: noop,
@@ -376,10 +361,6 @@ function create_fragment(ctx) {
 			if (detaching) detach(t118);
 			if (detaching) detach(div37);
 			destroy_component(inlinesvg1);
-			if (detaching) detach(t127);
-			if (detaching) detach(h12);
-			if (detaching) detach(t129);
-			if (detaching) detach(div39);
 		}
 	};
 }
